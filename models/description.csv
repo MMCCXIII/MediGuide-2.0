@@ -1,0 +1,115 @@
+Disease,Description
+Common cold,Mild viral upper-respiratory infection. Usually self-limited over several days.
+Seasonal allergic rhinitis,"IgE-mediated nasal and ocular reaction to environmental allergens (pollen, dust, etc.)."
+Acute viral pharyngitis,Viral throat infection. Most cases do not need antibiotics.
+Acute bronchitis,Usually viral inflammation of the bronchi. Cough can last 1–3 weeks.
+Acute gastroenteritis,Usually viral inflammation of the stomach and intestines. Focus on hydration.
+Gastroesophageal reflux (GERD),Retrograde flow of gastric contents causing heartburn and related symptoms.
+Migraine,"Recurrent primary headache disorder, often with sensory sensitivity and nausea."
+Tension-type headache,Most common primary headache; often bilateral pressure without severe migraine features.
+Urinary tract infection,Bacterial infection of the urinary tract. More common in females.
+Acute cystitis,Lower urinary tract infection limited to the bladder.
+Contact dermatitis,Skin inflammation from irritant or allergic contact.
+Acne vulgaris,Common chronic inflammatory skin condition of pilosebaceous units.
+Atopic eczema flare,Chronic itchy inflammatory skin condition with episodic flares.
+Musculoskeletal back strain,Mechanical strain of back muscles/ligaments; often related to lifting or posture.
+Tension / mechanical neck pain,Common mechanical neck pain often linked to posture or strain.
+Osteoarthritis (symptomatic),Degenerative joint disease causing activity-related pain and stiffness.
+Mild anxiety symptoms,Symptoms consistent with heightened anxiety; many causes exist and clinical assessment matters.
+Insomnia (symptom pattern),Difficulty initiating or maintaining sleep with daytime impact.
+Constipation,Infrequent or difficult passage of stool.
+Irritable bowel pattern,Functional bowel symptoms without alarm features; diagnosis of exclusion by clinicians.
+Mild dehydration,"Fluid deficit from inadequate intake or losses (heat, diarrhea, vomiting)."
+Conjunctivitis (likely viral/allergic),Inflammation of the conjunctiva; viral and allergic causes are common.
+Otitis media (possible),"Middle-ear inflammation, more common in children."
+Sinusitis (acute),"Inflammation of the paranasal sinuses, often following a cold."
+Asthma exacerbation (possible),Reversible airway obstruction with wheeze and breathlessness.
+Pneumonia (possible — seek care),Infection of the lung parenchyma. Requires clinical assessment; not a self-care diagnosis.
+Type 2 diabetes symptoms (possible),Suggestive metabolic symptoms; diagnosis requires blood tests by a clinician.
+Hypertension-related symptoms (nonspecific),High blood pressure is often silent; symptoms are nonspecific and need measurement.
+Possible cardiac chest pain — seek emergency care,"Pattern that can indicate acute coronary syndrome. This is a triage signal, not a diagnosis."
+Possible meningitis features — seek emergency care,"Combination of fever, severe headache, and neck stiffness is an emergency pattern."
+Addison's Disease,Addison's Disease -- clinical condition with characteristic presentation; see your physician for evaluation.
+Cushing's Syndrome,Cushing's Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pheochromocytoma,Pheochromocytoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Acromegaly,Acromegaly -- clinical condition with characteristic presentation; see your physician for evaluation.
+Hyperprolactinemia,Hyperprolactinemia -- clinical condition with characteristic presentation; see your physician for evaluation.
+Hypoparathyroidism,Hypoparathyroidism -- clinical condition with characteristic presentation; see your physician for evaluation.
+Hyperparathyroidism,Hyperparathyroidism -- clinical condition with characteristic presentation; see your physician for evaluation.
+Diabetic Ketoacidosis,Diabetic Ketoacidosis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Hashimoto's Thyroiditis,Hashimoto's Thyroiditis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Graves' Disease,Graves' Disease -- clinical condition with characteristic presentation; see your physician for evaluation.
+Prostate Cancer,Prostate Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.
+Lung Cancer,Lung Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.
+Brain Tumor,Brain Tumor -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pancreatic Cancer,Pancreatic Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.
+Hepatocellular Carcinoma,Hepatocellular Carcinoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Leukemia,Leukemia -- clinical condition with characteristic presentation; see your physician for evaluation.
+Hodgkin Lymphoma,Hodgkin Lymphoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Non-Hodgkin Lymphoma,Non-Hodgkin Lymphoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Multiple Myeloma,Multiple Myeloma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Melanoma,Melanoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Basal Cell Carcinoma,Basal Cell Carcinoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Squamous Cell Carcinoma,Squamous Cell Carcinoma -- clinical condition with characteristic presentation; see your physician for evaluation.
+Thyroid Cancer,Thyroid Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.
+Cervical Cancer,Cervical Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.
+Ovarian Cancer,Ovarian Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.
+Sarcoidosis,Sarcoidosis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Granulomatosis with Polyangiitis,Granulomatosis with Polyangiitis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Microscopic Polyangiitis,Microscopic Polyangiitis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Behcet's Disease,Behcet's Disease -- clinical condition with characteristic presentation; see your physician for evaluation.
+Ankylosing Spondylitis,Ankylosing Spondylitis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Psoriatic Arthritis,Psoriatic Arthritis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Reactive Arthritis,Reactive Arthritis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Polymyalgia Rheumatica,Polymyalgia Rheumatica -- clinical condition with characteristic presentation; see your physician for evaluation.
+Gout,Gout -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pseudogout,Pseudogout -- clinical condition with characteristic presentation; see your physician for evaluation.
+Polymyositis,Polymyositis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Dermatomyositis,Dermatomyositis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Scleroderma (Systemic Sclerosis),Scleroderma (Systemic Sclerosis) -- clinical condition with characteristic presentation; see your physician for evaluation.
+Mixed Connective Tissue Disease,Mixed Connective Tissue Disease -- clinical condition with characteristic presentation; see your physician for evaluation.
+Sjogren's Syndrome,Sjogren's Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.
+Cholera,Cholera -- clinical condition with characteristic presentation; see your physician for evaluation.
+Typhoid Fever,Typhoid Fever -- clinical condition with characteristic presentation; see your physician for evaluation.
+Diphtheria,Diphtheria -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pertussis (Whooping Cough),Pertussis (Whooping Cough) -- clinical condition with characteristic presentation; see your physician for evaluation.
+Measles,Measles -- clinical condition with characteristic presentation; see your physician for evaluation.
+Rubella,Rubella -- clinical condition with characteristic presentation; see your physician for evaluation.
+Mumps,Mumps -- clinical condition with characteristic presentation; see your physician for evaluation.
+Varicella (Chickenpox),Varicella (Chickenpox) -- clinical condition with characteristic presentation; see your physician for evaluation.
+Mononucleosis (EBV),Mononucleosis (EBV) -- clinical condition with characteristic presentation; see your physician for evaluation.
+Cytomegalovirus Infection,Cytomegalovirus Infection -- clinical condition with characteristic presentation; see your physician for evaluation.
+Toxoplasmosis,Toxoplasmosis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Legionnaires' Disease,Legionnaires' Disease -- clinical condition with characteristic presentation; see your physician for evaluation.
+COVID-19,COVID-19 -- clinical condition with characteristic presentation; see your physician for evaluation.
+Rabies,Rabies -- clinical condition with characteristic presentation; see your physician for evaluation.
+Tetanus,Tetanus -- clinical condition with characteristic presentation; see your physician for evaluation.
+Benign Prostatic Hyperplasia,Benign Prostatic Hyperplasia -- clinical condition with characteristic presentation; see your physician for evaluation.
+Testicular Torsion,Testicular Torsion -- clinical condition with characteristic presentation; see your physician for evaluation.
+Epididymitis,Epididymitis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pelvic Inflammatory Disease,Pelvic Inflammatory Disease -- clinical condition with characteristic presentation; see your physician for evaluation.
+Endometriosis,Endometriosis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Polycystic Ovary Syndrome,Polycystic Ovary Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.
+Uterine Fibroids,Uterine Fibroids -- clinical condition with characteristic presentation; see your physician for evaluation.
+Preeclampsia,Preeclampsia -- clinical condition with characteristic presentation; see your physician for evaluation.
+Ectopic Pregnancy,Ectopic Pregnancy -- clinical condition with characteristic presentation; see your physician for evaluation.
+Urinary Tract Infection (Adult),Urinary Tract Infection (Adult) -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pyelonephritis,Pyelonephritis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Acute Kidney Injury,Acute Kidney Injury -- clinical condition with characteristic presentation; see your physician for evaluation.
+Rosacea,Rosacea -- clinical condition with characteristic presentation; see your physician for evaluation.
+Seborrheic Dermatitis,Seborrheic Dermatitis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Pemphigus Vulgaris,Pemphigus Vulgaris -- clinical condition with characteristic presentation; see your physician for evaluation.
+Bullous Pemphigoid,Bullous Pemphigoid -- clinical condition with characteristic presentation; see your physician for evaluation.
+Stevens-Johnson Syndrome,Stevens-Johnson Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.
+Erythema Multiforme,Erythema Multiforme -- clinical condition with characteristic presentation; see your physician for evaluation.
+Cellulitis,Cellulitis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Impetigo,Impetigo -- clinical condition with characteristic presentation; see your physician for evaluation.
+Psoriasis,Psoriasis -- clinical condition with characteristic presentation; see your physician for evaluation.
+Vitiligo,Vitiligo -- clinical condition with characteristic presentation; see your physician for evaluation.
+Sleep Apnea,Sleep Apnea -- clinical condition with characteristic presentation; see your physician for evaluation.
+Restless Legs Syndrome,Restless Legs Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.
+Fibromyalgia,Fibromyalgia -- clinical condition with characteristic presentation; see your physician for evaluation.
+Chronic Fatigue Syndrome,Chronic Fatigue Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.
+Tension Headache,Tension Headache -- clinical condition with characteristic presentation; see your physician for evaluation.
+Cluster Headache,Cluster Headache -- clinical condition with characteristic presentation; see your physician for evaluation.
+Bell's Palsy,Bell's Palsy -- clinical condition with characteristic presentation; see your physician for evaluation.

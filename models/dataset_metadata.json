@@ -1,0 +1,40 @@
+{
+  "schema_version": 4,
+  "dataset_type": "merged_original_training_plus_disease_symptoms_csv",
+  "clinical_status": "educational; supplied disease/symptom source has not been independently clinically validated",
+  "conditions": 647,
+  "symptoms": 1495,
+  "training_rows": 11977,
+  "feature_count": 1495,
+  "source_of_condition_profiles": "models/Training.csv plus models/diseases_and_symptoms.csv",
+  "synthetic_generation": "weighted symptom-profile sampling with limited nonspecific noise; balanced by condition",
+  "important_limit": "The original rows are generated model-development examples, and imported profiles are dataset-derived; neither should be represented as patient outcomes or proof of clinical diagnostic accuracy.",
+  "references": [
+    {
+      "organization": "CDC",
+      "topic": "Common cold",
+      "url": "https://www.cdc.gov/common-cold/about/index.html"
+    },
+    {
+      "organization": "CDC",
+      "topic": "Influenza clinical signs",
+      "url": "https://www.cdc.gov/flu/hcp/clinical-signs/"
+    },
+    {
+      "organization": "CDC",
+      "topic": "Acute bronchitis",
+      "url": "https://www.cdc.gov/acute-bronchitis/about/index.html"
+    },
+    {
+      "organization": "NIDDK",
+      "topic": "GERD symptoms and causes",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults/symptoms-causes"
+    },
+    {
+      "organization": "NIDDK",
+      "topic": "Diabetes symptoms and causes",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/symptoms-causes"
+    }
+  ],
+  "merge_policy": "normalize disease and symptom labels; merge duplicate disease labels into one class; merge duplicate symptom names into one feature; retain original rows and append one source profile per unique imported disease"
+}

@@ -1,0 +1,8 @@
+Disease,Diet
+Common cold,"['Warm fluids', 'Adequate hydration']"
+Seasonal allergic rhinitis,['No specific diet required']
+Acute gastroenteritis,"['Clear fluids', 'BRAT-style foods as tolerated', 'Avoid dairy and greasy food early on']"
+Gastroesophageal reflux (GERD),"['Smaller meals', 'Reduce trigger foods (spicy, fatty, caffeine, alcohol)']"
+Constipation,"['Fibre-rich foods', 'Adequate water']"
+Irritable bowel pattern,"['Regular meals', 'Identify personal triggers']"
+Mild dehydration,['Fluids with electrolytes as appropriate']

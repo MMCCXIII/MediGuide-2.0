@@ -1,0 +1,2 @@
+model,accuracy,balanced_accuracy,precision_macro,recall_macro,f1_macro,precision_weighted,recall_weighted,f1_weighted,cv_f1_weighted_mean,cv_f1_weighted_std,training_seconds,best_parameters
+Random Forest,0.7890350877192982,0.7890350877192983,0.8034167845328823,0.7890350877192983,0.7786011896140754,0.8034167845328823,0.7890350877192982,0.7786011896140754,0.8149189550100489,0.010655075730577043,2.662405174000014,"{""max_depth"": 28, ""min_samples_leaf"": 2, ""n_estimators"": 120}"

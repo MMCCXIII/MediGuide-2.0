@@ -1,0 +1,406 @@
+Symptom,weight
+abdominal bloating,4
+abdominal enlargement,3
+abdominal mass,3
+abdominal pain,4
+abnormal bleeding,3
+acanthosis nigricans,3
+acid reflux,5
+acne,3
+acne lesions,5
+aerophobia,4
+agitation,4
+alcohol induced pain,2
+alternating bowel habit,3
+amenorrhea,4
+anemia symptoms,4
+anorexia,4
+anxiety,4
+aphasia,3
+apneic episodes,5
+arm pain,3
+arthralgia,3
+ascites,4
+asymmetric mole,4
+ataxia,3
+attacks at night,4
+aura,2
+back pain,4
+big toe pain,4
+bilateral pain,4
+blackheads,4
+bladder dysfunction,3
+bleeding gums,3
+bleeding lesion,3
+bloating,3
+blood in urine,2
+blurred vision,3
+bone pain,4
+bradycardia,3
+brittle nails,3
+bruising,3
+buffalo hump,4
+bulla,4
+burning sensation,3
+burning skin,2
+burning urination,5
+cachexia,3
+calcinosis,3
+carpal tunnel syndrome,3
+cataracts,3
+cervical motion tenderness,4
+chest pain,3
+chest pressure,5
+chest tightness,4
+chills,3
+chvostek sign,3
+cloudy urine,3
+cognitive difficulty,4
+cold intolerance,4
+color variation,4
+confusion,3
+congestion,3
+conjunctivitis,4
+constipation,3
+cough,3
+cranial nerve deficits,3
+cyanosis,3
+dactylitis,3
+dandruff,4
+dark urine,4
+daytime sleepiness,5
+decreased libido,4
+dehydration,5
+dental caries,3
+depigmented patches,5
+depression,3
+diabetes new onset,3
+diameter growth,4
+diarrhea,3
+difficulty breathing,3
+difficulty closing eye,4
+difficulty concentrating,3
+difficulty speaking,3
+difficulty swallowing,3
+digital ulcers,3
+discharge,3
+dizziness,3
+dribbling,4
+drooling,4
+dry cough,4
+dry eyes,5
+dry mouth,4
+dry skin,3
+dysmenorrhea,4
+dyspareunia,3
+dysphagia,3
+dysuria,4
+ear discharge,2
+ear pain,5
+early graying,3
+early satiety,4
+edema,4
+enlarged feet,4
+enlarged hands,4
+enthesitis,4
+epigastric pain,3
+erectile dysfunction,3
+erythema,4
+erythema nodosum,3
+exophthalmos,4
+eye irritation,3
+eye pain,3
+eye redness,3
+eyelid swelling,2
+facial droop,5
+facial features change,4
+facial numbness,3
+facial pain,4
+facial rash,3
+facial redness,5
+facial scaling,3
+fainting,3
+fatigue,4
+fever,3
+flaky skin,4
+flank pain,3
+flushing,4
+foul smelling urine,4
+frequent urination,4
+fruity breath,4
+galactorrhea,4
+genital ulcers,4
+goiter,4
+gottron papules,4
+greasy skin,4
+gritty eyes,4
+hair loss,4
+headache,3
+hearing loss,3
+hearing reduction,3
+heartburn,5
+heat intolerance,4
+heliotrope rash,4
+hematuria,3
+hemiparesis,3
+hemoptysis,3
+hepatomegaly,4
+hepatosplenomegaly,3
+hesitancy,4
+high fever,3
+hip pain,3
+hirsutism,4
+hoarseness,3
+honey crusted lesions,4
+hydrophobia,4
+hyperacusis,3
+hypercalcemia,3
+hyperglycemia,3
+hyperhidrosis,4
+hyperkeratosis,3
+hyperpigmentation,4
+hyperreflexia,3
+hypersalivation,4
+hypertension,4
+hyperventilation,4
+hypotension,4
+incomplete emptying,4
+incontinence,2
+increased hunger,3
+increased thirst,4
+increased urination,4
+infertility,3
+infrequent stools,4
+insomnia,4
+inspiratory whoop,4
+irregular border,4
+irregular periods,5
+irritability,3
+irritable bowel,3
+itching,4
+jaundice,4
+jaw pain,3
+joint pain,4
+joint swelling,4
+keratoderma,3
+kidney problems,3
+kidney stones,3
+knee pain,4
+koplik spots,4
+leg cramps,3
+leg discomfort,5
+leg pain,2
+limited movement,3
+limited range of motion,4
+loss of appetite,3
+loss of smell,3
+loss of taste,3
+low fever,2
+low urine output,3
+lower abdominal pain,4
+lymphadenopathy,4
+macule,4
+maculopapular rash,5
+malaise,3
+mechanic hands,3
+memory loss,3
+menorrhagia,3
+menstrual changes,3
+mild pressure headache,4
+mild to moderate pain,4
+miosis,3
+mood swings,3
+moon facies,4
+morning headache,4
+morning stiffness,4
+mucosal ulcers,5
+mucus in stool,2
+muscle cramps,4
+muscle pain,4
+muscle spasms,4
+muscle stiffness,5
+muscle tension,3
+muscle weakness,4
+myalgia,3
+nail pitting,4
+nasal congestion,4
+nasal ulcers,3
+nausea,3
+neck pain,3
+neck stiffness,4
+neck swelling,4
+negative nikolsky sign,4
+night sweats,4
+nighttime symptoms,3
+nocturia,4
+oily skin,3
+oliguria,4
+oral ulcers,3
+orthostatic intolerance,4
+ovarian cysts,4
+pain on movement,4
+painful periods,4
+painful skin,4
+painful swallowing,4
+painful urination,5
+pallor,3
+palpitations,3
+papules,4
+paralysis,3
+paresthesia,4
+parotid swelling,5
+paroxysmal cough,5
+pathologic fractures,3
+pearly papule,4
+pelvic pain,4
+pelvic pressure,4
+personality change,3
+petechiae,4
+phonophobia,4
+photophobia,3
+pneumonia,4
+polydipsia,5
+polyuria,5
+positive nikolsky sign,4
+post exertional malaise,5
+postcoital bleeding,4
+posttussive vomiting,4
+pressure pain,4
+productive cough,4
+proteinuria,3
+pruritus,3
+pseudomembrane,4
+ptosis,3
+puffy face,3
+pulsating headache,4
+purpura,3
+pustule,4
+pustules,3
+rapid growth,3
+rash,4
+raynauds phenomenon,4
+recurrent infections,4
+recurrent pneumonia,3
+red eyes,4
+red joint,4
+red scrotum,4
+red skin streaking,4
+redness,4
+reduced smell,3
+reduced urine,4
+relative bradycardia,3
+relief after stool,3
+relief with movement,5
+restless sleep,3
+restlessness,4
+rhinophyma,2
+risus sardonicus,4
+rose spots,3
+runny nose,4
+sacroiliac joint pain,4
+salt craving,4
+scalp rash,3
+scaly plaque,4
+scaly skin,5
+scarring,2
+sclerodactyly,4
+scrotal pain,5
+scrotal swelling,4
+seizures,3
+severe headache,5
+severe unilateral pain,5
+shawl sign,4
+shortness of breath,4
+shoulder pain,3
+silvery scale,4
+sinus pressure,5
+sinusitis,4
+skin blisters,5
+skin detachment,4
+skin erosion,4
+skin lesion,4
+skin rash,4
+skin redness,4
+skin swelling,5
+skin tags,3
+skin tenderness,5
+skin thickening,4
+sleep apnea,3
+sleep disturbance,4
+slow growth,4
+slow healing,2
+sneezing,5
+snoring,4
+sore throat,3
+spinal cord compression,3
+spine stiffness,4
+splenomegaly,3
+steatorrhea,3
+stiff neck,5
+stiffness,3
+straining,4
+stress related,3
+striae,4
+sunken eyes,4
+suprapubic pain,4
+sweating,3
+swelling,3
+swollen joints,3
+swollen lymph nodes,3
+swollen salivary glands,3
+swollen testicles,3
+symmetric lesions,4
+tachycardia,4
+target lesions,5
+tearing,4
+telangiectasia,4
+tender points,4
+tense blisters,4
+testicular pain,5
+testicular swelling,4
+tetany,4
+thirst,4
+thrombosis,2
+thyroid nodule,5
+tonsillar exudates,3
+tophi,3
+tremors,4
+trismus,5
+trousseau sign,3
+truncal obesity,5
+twitching,3
+ulceration,4
+unilateral facial weakness,5
+unilateral headache,4
+urethritis,3
+urge to move legs,5
+urgency,4
+urinary frequency,4
+urinary retention,3
+urinary urgency,4
+urticaria,3
+uveitis,3
+vaginal bleeding,4
+vaginal discharge,4
+vaginal dryness,3
+vesicle,4
+vesicular rash,5
+vision changes,2
+visual disturbance,3
+vomiting,3
+warm joint,4
+warm skin,5
+watery diarrhea,5
+watery eyes,4
+weak urine stream,4
+weakness,4
+weight gain,4
+weight loss,3
+well demarcated lesions,4
+wheezing,3
+whiteheads,4
+widespread pain,5
+witnessed apnea,4
+worse at night,5
+worse at rest,5
+wrist pain,3

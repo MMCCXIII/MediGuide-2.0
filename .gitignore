@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+data/*.sqlite3
+data/*.sqlite3-shm
+data/*.sqlite3-wal
+models/feedback.jsonl
+models/dataset_audit_report.json
+models/DATASET_AUDIT_REPORT.md
+models/medguide_tensorflow.keras
+models/tensorflow_metadata.json
+.env
+.env.*
+!.env.example
