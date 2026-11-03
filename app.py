@@ -488,7 +488,7 @@ def render_triage(level: str | None, message: str | None) -> None:
         unsafe_allow_html=True,
     )
 
-def render_sidebar(data, tensorflow) -> None:
+def render_sidebar(data, classical, tensorflow) -> None:
     with st.sidebar:
         logo_src = get_logo_base64()
         if logo_src:
@@ -1570,7 +1570,7 @@ def main() -> None:
             st.exception(exc)
         return
 
-    render_sidebar(data, tensorflow)
+    render_sidebar(data, classical, tensorflow)
     render_brand()
 
     chat_tab, appointments_tab, history_tab, library_tab, more_tab = st.tabs([
