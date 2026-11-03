@@ -1,0 +1,648 @@
+Disease,Training_records,Description,Precautions,Diet,Medication,Has_description,Has_precautions,Has_diet,Has_medication_reference
+Abdominal Hernia,1,,,,,False,False,False,False
+Abdominal Injury,1,,,,,False,False,False,False
+abscess,1,,,,,False,False,False,False
+Abscess of Nose,1,,,,,False,False,False,False
+Abscess of the Lung,1,,,,,False,False,False,False
+Achalasia,1,,,,,False,False,False,False
+acid reflux,1,,,,,False,False,False,False
+Acinic cell carcinoma,1,,,,,False,False,False,False
+Acne vulgaris,100,Common chronic inflammatory skin condition of pilosebaceous units.,Gentle skin care | See a clinician for severe nodular or scarring acne,,Topical benzoyl peroxide / retinoids as directed by a clinician,True,True,False,True
+Acoustic Neuroma,1,,,,,False,False,False,False
+Acromegaly,100,Acromegaly -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Actinic Keratosis,1,,,,,False,False,False,False
+Acute bronchitis,100,Usually viral inflammation of the bronchi. Cough can last 1–3 weeks.,"Avoid smoke | Seek care if shortness of breath worsens, high fever, or cough with blood",,Supportive care | Inhaled bronchodilator only if clinician-directed,True,True,False,True
+Acute Bronchospasm,1,,,,,False,False,False,False
+Acute cystitis,100,Lower urinary tract infection limited to the bladder.,Clinical assessment recommended | Increase fluids unless advised otherwise,,Antibiotics only if prescribed,True,True,False,True
+Acute gastroenteritis,100,Usually viral inflammation of the stomach and intestines. Focus on hydration.,"Oral rehydration | Seek care for blood in stool, severe dehydration, persistent vomiting, or high fever",Clear fluids | BRAT-style foods as tolerated | Avoid dairy and greasy food early on,Oral rehydration solution | Antiemetics only if clinician-directed,True,True,True,True
+Acute Glaucoma,1,,,,,False,False,False,False
+Acute Kidney Injury,101,Acute Kidney Injury -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Acute Otitis Media,1,,,,,False,False,False,False
+Acute Pancreatitis,1,,,,,False,False,False,False
+acute renal failure,1,,,,,False,False,False,False
+Acute Sinusitis,1,,,,,False,False,False,False
+Acute viral pharyngitis,100,Viral throat infection. Most cases do not need antibiotics.,"Fluids and rest | Seek care for severe pain, drooling, difficulty breathing, or rash with fever",,Supportive care | Paracetamol or ibuprofen if appropriate for age,True,True,False,True
+Addison's Disease,100,Addison's Disease -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Adenoid cystic carcinoma,1,,,,,False,False,False,False
+Adrenal Cancer,1,,,,,False,False,False,False
+Adrenal Tumor,1,,,,,False,False,False,False
+alcohol intoxication,1,,,,,False,False,False,False
+Alcohol Use Disorder,1,,,,,False,False,False,False
+alcoholism,1,,,,,False,False,False,False
+Alopecia,1,,,,,False,False,False,False
+Alpha-1 Antitrypsin Deficiency,1,,,,,False,False,False,False
+alzheimer's disease,1,,,,,False,False,False,False
+Amyloidosis,1,,,,,False,False,False,False
+Anal Fissure,1,,,,,False,False,False,False
+anaphylaxis,1,,,,,False,False,False,False
+anemia,1,,,,,False,False,False,False
+Anemia due to Chronic Kidney Disease,1,,,,,False,False,False,False
+Anemia due to Malignancy,1,,,,,False,False,False,False
+Anemia of Chronic Disease,1,,,,,False,False,False,False
+aneurysm,1,,,,,False,False,False,False
+angina,1,,,,,False,False,False,False
+Angle-Closure Glaucoma,1,,,,,False,False,False,False
+Ankylosing Spondylitis,100,Ankylosing Spondylitis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Anorexia Nervosa,1,,,,,False,False,False,False
+Antihypertensives Poisoning,1,,,,,False,False,False,False
+Antimicrobial Drugs Poisoning,1,,,,,False,False,False,False
+Anxiety,1,,,,,False,False,False,False
+Anxiety Disorder,1,,,,,False,False,False,False
+aphasia,1,,,,,False,False,False,False
+Aplastic Anemia,1,,,,,False,False,False,False
+appendicitis,1,,,,,False,False,False,False
+arrhythmia,1,,,,,False,False,False,False
+arthritis,1,,,,,False,False,False,False
+asthma,1,,,,,False,False,False,False
+Asthma exacerbation (possible),100,Reversible airway obstruction with wheeze and breathlessness.,"Use prescribed reliever if available | Seek emergency care for severe breathlessness, blue lips, or inability to speak full sentences",,Inhaled bronchodilator / preventer only as prescribed,True,True,False,True
+Astigmatism,1,,,,,False,False,False,False
+Atelectasis,1,,,,,False,False,False,False
+atopic dermatitis,1,,,,,False,False,False,False
+Atopic eczema flare,100,Chronic itchy inflammatory skin condition with episodic flares.,Regular emollients | Avoid known triggers | Seek care for infected or severe flares,,Emollients | Topical anti-inflammatories only if prescribed,True,True,False,True
+atrial fibrillation,1,,,,,False,False,False,False
+Atrophic vaginitis,1,,,,,False,False,False,False
+Attention Deficit Hyperactivity Disorder (ADHD),1,,,,,False,False,False,False
+Autism,1,,,,,False,False,False,False
+Avoidant/Restrictive Food Intake Disorder (ARFID),1,,,,,False,False,False,False
+Bacterial Vaginosis,1,,,,,False,False,False,False
+Balanitis,1,,,,,False,False,False,False
+Basal Cell Carcinoma,101,Basal Cell Carcinoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+bed bug bite,1,,,,,False,False,False,False
+Behcet's Disease,100,Behcet's Disease -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Bell Palsy,1,,,,,False,False,False,False
+Bell's Palsy,101,Bell's Palsy -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Benign Kidney Cyst,1,,,,,False,False,False,False
+Benign Prostatic Hyperplasia,101,Benign Prostatic Hyperplasia -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Benzodiazepine Use Disorder,1,,,,,False,False,False,False
+Binge Eating Disorder,1,,,,,False,False,False,False
+bipolar disorder,1,,,,,False,False,False,False
+bladder cancer,1,,,,,False,False,False,False
+Bladder Disorder,1,,,,,False,False,False,False
+Bone Cancer,1,,,,,False,False,False,False
+bone fracture,1,,,,,False,False,False,False
+bone infection,1,,,,,False,False,False,False
+Bone Spur of the Calcaneus,1,,,,,False,False,False,False
+borderline personality disorder,1,,,,,False,False,False,False
+Brain Tumor,101,Brain Tumor -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+breast cancer,1,,,,,False,False,False,False
+bronchitis,1,,,,,False,False,False,False
+Bulimia Nervosa,1,,,,,False,False,False,False
+Bullous Pemphigoid,100,Bullous Pemphigoid -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+burn,1,,,,,False,False,False,False
+Bursitis,1,,,,,False,False,False,False
+Candidiasis,1,,,,,False,False,False,False
+Cannabis Use Disorder,1,,,,,False,False,False,False
+Carbon Monoxide Poisoning,1,,,,,False,False,False,False
+Carcinoid Tumor,1,,,,,False,False,False,False
+cardiac arrest,1,,,,,False,False,False,False
+cardiomyopathy,1,,,,,False,False,False,False
+carpal tunnel syndrome,1,,,,,False,False,False,False
+Cat Scratch Disease,1,,,,,False,False,False,False
+cataracts,1,,,,,False,False,False,False
+celiac disease,1,,,,,False,False,False,False
+Cellulitis,101,Cellulitis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Cervical Cancer,101,Cervical Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+cervical radiculopathy,1,,,,,False,False,False,False
+Chagas Disease,1,,,,,False,False,False,False
+Chalazion,1,,,,,False,False,False,False
+Chancroid,1,,,,,False,False,False,False
+chicken pox,1,,,,,False,False,False,False
+Chickenpox,1,,,,,False,False,False,False
+chlamydia,1,,,,,False,False,False,False
+cholangiocarcinoma,1,,,,,False,False,False,False
+cholecystitis,1,,,,,False,False,False,False
+Choledocholithiasis,1,,,,,False,False,False,False
+Cholera,100,Cholera -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Cholesteatoma,1,,,,,False,False,False,False
+Chondrosarcoma,1,,,,,False,False,False,False
+Chordoma,1,,,,,False,False,False,False
+Choriocarcinoma,1,,,,,False,False,False,False
+Chorioretinitis,1,,,,,False,False,False,False
+Chronic Fatigue Syndrome,101,Chronic Fatigue Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Chronic Glaucoma,1,,,,,False,False,False,False
+Chronic Headache,1,,,,,False,False,False,False
+Chronic Inflammatory Demyelinating Polyneuropathy (CIDP),1,,,,,False,False,False,False
+chronic kidney disease,1,,,,,False,False,False,False
+Chronic Knee Pain,1,,,,,False,False,False,False
+Chronic Migraine,1,,,,,False,False,False,False
+chronic obstructive pulmonary disease,1,,,,,False,False,False,False
+Chronic Otitis Media,1,,,,,False,False,False,False
+chronic pain,1,,,,,False,False,False,False
+Chronic Rheumatic Fever,1,,,,,False,False,False,False
+Chronic Sinusitis,1,,,,,False,False,False,False
+Cirrhosis,1,,,,,False,False,False,False
+cirrhosis of the liver,1,,,,,False,False,False,False
+Cluster Headache,100,Cluster Headache -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Coagulation (Bleeding) Disorder,1,,,,,False,False,False,False
+Cold Sore,1,,,,,False,False,False,False
+colon cancer,1,,,,,False,False,False,False
+Colonic Polyp,1,,,,,False,False,False,False
+Colorectal Cancer,1,,,,,False,False,False,False
+Common cold,101,Mild viral upper-respiratory infection. Usually self-limited over several days.,"Rest and fluids | Hand hygiene | See a clinician if high fever, severe headache, stiff neck, or breathing difficulty develops",Warm fluids | Adequate hydration,Supportive care | Saline nasal rinse | Paracetamol for discomfort if age-appropriate,True,True,True,True
+Complex Regional Pain Syndrome,1,,,,,False,False,False,False
+Complex Regional Pain Syndrome (CRPS),1,,,,,False,False,False,False
+concussion,1,,,,,False,False,False,False
+Conductive Hearing Loss,1,,,,,False,False,False,False
+Congenital Glaucoma,1,,,,,False,False,False,False
+Congenital rubella,1,,,,,False,False,False,False
+congestive heart failure,1,,,,,False,False,False,False
+Conjunctivitis,1,,,,,False,False,False,False
+Conjunctivitis due to Allergy,1,,,,,False,False,False,False
+Conjunctivitis (likely viral/allergic),100,Inflammation of the conjunctiva; viral and allergic causes are common.,"Hand hygiene | Seek care for severe pain, vision loss, or light sensitivity with trauma",,Lubricating drops | Other drops only if prescribed,True,True,False,True
+Constipation,100,Infrequent or difficult passage of stool.,"Fluids and fibre | Seek care for blood, weight loss, or severe pain",Fibre-rich foods | Adequate water,Osmotic laxatives only as advised,True,True,True,True
+Contact dermatitis,101,Skin inflammation from irritant or allergic contact.,"Avoid the trigger | Seek care for widespread rash, facial/genital involvement, or signs of infection",,Emollients | Topical corticosteroid only if clinician-advised,True,True,False,True
+Conversion Disorder,1,,,,,False,False,False,False
+Cornea Infection,1,,,,,False,False,False,False
+Corneal Abrasion,1,,,,,False,False,False,False
+Corneal Disorder,1,,,,,False,False,False,False
+coronary artery disease,1,,,,,False,False,False,False
+Coronary Atherosclerosis,1,,,,,False,False,False,False
+COVID-19,101,COVID-19 -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Cranial Nerve Palsy,1,,,,,False,False,False,False
+Craniopharyngioma,1,,,,,False,False,False,False
+crohn's disease,1,,,,,False,False,False,False
+Crushing Injury,1,,,,,False,False,False,False
+Cryptococcosis,1,,,,,False,False,False,False
+Cryptorchidism,1,,,,,False,False,False,False
+Cushing's Syndrome,100,Cushing's Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Cyst of the Eyelid,1,,,,,False,False,False,False
+Cystic Fibrosis,1,,,,,False,False,False,False
+Cytomegalovirus Infection,100,Cytomegalovirus Infection -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+deep vein thrombosis,1,,,,,False,False,False,False
+dementia,1,,,,,False,False,False,False
+Dengue Fever,1,,,,,False,False,False,False
+Dental Caries,1,,,,,False,False,False,False
+Depression,1,,,,,False,False,False,False
+Dermatitis due to Sun Exposure,1,,,,,False,False,False,False
+Dermatomyositis,100,Dermatomyositis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Diabetic Ketoacidosis,100,Diabetic Ketoacidosis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Diabetic Kidney Disease,1,,,,,False,False,False,False
+Diabetic retinopathy,1,,,,,False,False,False,False
+Diphtheria,100,Diphtheria -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Dislocation of the Ankle,1,,,,,False,False,False,False
+Dislocation of the Elbow,1,,,,,False,False,False,False
+Dislocation of the Patella,1,,,,,False,False,False,False
+diverticulitis,1,,,,,False,False,False,False
+diverticulosis,1,,,,,False,False,False,False
+Drug Abuse (Barbiturates),1,,,,,False,False,False,False
+Drug Abuse (Cocaine),1,,,,,False,False,False,False
+Drug Abuse (Methamphetamine),1,,,,,False,False,False,False
+Drug Reaction,1,,,,,False,False,False,False
+drug withdrawal,1,,,,,False,False,False,False
+Dry Skin,1,,,,,False,False,False,False
+Dysthymic Disorder,1,,,,,False,False,False,False
+Ebola,1,,,,,False,False,False,False
+Ectopic Pregnancy,101,Ectopic Pregnancy -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Eczema,1,,,,,False,False,False,False
+Edward Syndrome,1,,,,,False,False,False,False
+Emphysema,1,,,,,False,False,False,False
+Empyema,1,,,,,False,False,False,False
+encephalitis,1,,,,,False,False,False,False
+encephalopathy,1,,,,,False,False,False,False
+endometrial cancer,1,,,,,False,False,False,False
+Endometriosis,101,Endometriosis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Endophthalmitis,1,,,,,False,False,False,False
+Ependymoma,1,,,,,False,False,False,False
+Epididymitis,101,Epididymitis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+epilepsy,1,,,,,False,False,False,False
+Erectile Dysfunction,1,,,,,False,False,False,False
+Erythema Multiforme,100,Erythema Multiforme -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+esophageal cancer,1,,,,,False,False,False,False
+Esophageal Varices,1,,,,,False,False,False,False
+Ethylene glycol poisoning-1,1,,,,,False,False,False,False
+Ethylene glycol poisoning-2,1,,,,,False,False,False,False
+Ethylene glycol poisoning-3,1,,,,,False,False,False,False
+Ewing Sarcoma,1,,,,,False,False,False,False
+Exfoliation Glaucoma,1,,,,,False,False,False,False
+Extrapyramidal Effect of Drugs,1,,,,,False,False,False,False
+Eye alignment disorder,1,,,,,False,False,False,False
+Fallopian Tube Cancer,1,,,,,False,False,False,False
+Fat Embolism,1,,,,,False,False,False,False
+Female Infertility of Unknown Cause,1,,,,,False,False,False,False
+Fetal Alcohol Syndrome,1,,,,,False,False,False,False
+fibroids,1,,,,,False,False,False,False
+Fibromyalgia,101,Fibromyalgia -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Flat Feet,1,,,,,False,False,False,False
+Food Allergy,1,,,,,False,False,False,False
+Foreign Body in the Gastrointestinal Tract,1,,,,,False,False,False,False
+Foreign Body in the Throat,1,,,,,False,False,False,False
+Fracture,1,,,,,False,False,False,False
+Fracture of the Arm,1,,,,,False,False,False,False
+Fracture of the Neck,1,,,,,False,False,False,False
+Fracture of the Patella,1,,,,,False,False,False,False
+Fracture of the Rib,1,,,,,False,False,False,False
+Fracture of the Shoulder,1,,,,,False,False,False,False
+Fungal Infection of the Skin,1,,,,,False,False,False,False
+gallstones,1,,,,,False,False,False,False
+gastritis,1,,,,,False,False,False,False
+Gastroenteritis (Stomach Flu),1,,,,,False,False,False,False
+Gastroesophageal Reflux Disease (GERD),1,,,,,False,False,False,False
+Gastroesophageal reflux (GERD),100,Retrograde flow of gastric contents causing heartburn and related symptoms.,"Elevate head of bed | Avoid late large meals | Seek care for alarm features: weight loss, bleeding, progressive dysphagia","Smaller meals | Reduce trigger foods (spicy, fatty, caffeine, alcohol)",Antacids | H2 blockers or PPIs only as advised by a clinician,True,True,True,True
+Gastrointestinal Hemorrhage,1,,,,,False,False,False,False
+gastroparesis,1,,,,,False,False,False,False
+Genital Herpes,1,,,,,False,False,False,False
+GERD,1,,,,,False,False,False,False
+Gestational Cholestasis,1,,,,,False,False,False,False
+Gestational Diabetes,1,,,,,False,False,False,False
+Gestational Hypertension,1,,,,,False,False,False,False
+Gestational Trophoblastic Disease,1,,,,,False,False,False,False
+glaucoma,1,,,,,False,False,False,False
+Glioblastoma,1,,,,,False,False,False,False
+Glucocorticoid Deficiency,1,,,,,False,False,False,False
+goiter,1,,,,,False,False,False,False
+Gonorrhea,1,,,,,False,False,False,False
+Gout,101,Gout -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Granulomatosis with Polyangiitis,100,Granulomatosis with Polyangiitis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Graves' Disease,100,Graves' Disease -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+groin hernia,1,,,,,False,False,False,False
+Gum Disease,1,,,,,False,False,False,False
+Hallucinogen Use Disorder,1,,,,,False,False,False,False
+Hashimoto's Thyroiditis,100,Hashimoto's Thyroiditis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Hashimoto Thyroiditis,1,,,,,False,False,False,False
+Head and Neck Cancer,1,,,,,False,False,False,False
+Headache after lumbar puncture,1,,,,,False,False,False,False
+heart attack,1,,,,,False,False,False,False
+Heart Block,1,,,,,False,False,False,False
+Heart Failure,1,,,,,False,False,False,False
+Hemarthrosis,1,,,,,False,False,False,False
+Hemochromatosis,1,,,,,False,False,False,False
+Hemolytic Anemia,1,,,,,False,False,False,False
+Hemophilia,1,,,,,False,False,False,False
+Hemorrhoids,1,,,,,False,False,False,False
+Hepatic Encephalopathy,1,,,,,False,False,False,False
+Hepatitis,1,,,,,False,False,False,False
+hepatitis a,1,,,,,False,False,False,False
+hepatitis b,1,,,,,False,False,False,False
+hepatitis c,1,,,,,False,False,False,False
+Hepatitis due to a Toxin,1,,,,,False,False,False,False
+Hepatocellular Carcinoma,100,Hepatocellular Carcinoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Herpangina,1,,,,,False,False,False,False
+Herpes Simplex,1,,,,,False,False,False,False
+hiatal hernia,1,,,,,False,False,False,False
+high blood pressure,1,,,,,False,False,False,False
+high cholesterol,1,,,,,False,False,False,False
+Hirschsprung Disease,1,,,,,False,False,False,False
+Hirsutism,1,,,,,False,False,False,False
+hiv/aids,1,,,,,False,False,False,False
+hives,1,,,,,False,False,False,False
+Hodgkin Lymphoma,100,Hodgkin Lymphoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+HPV Infection,1,,,,,False,False,False,False
+Huntington Disease,1,,,,,False,False,False,False
+Hydrocele of the Testicle,1,,,,,False,False,False,False
+Hydrocephalus,1,,,,,False,False,False,False
+Hydronephrosis,1,,,,,False,False,False,False
+Hypercalcemia,1,,,,,False,False,False,False
+Hypercholesterolemia,1,,,,,False,False,False,False
+Hyperemesis Gravidarum,1,,,,,False,False,False,False
+Hypergammaglobulinemia,1,,,,,False,False,False,False
+Hyperhidrosis,1,,,,,False,False,False,False
+Hyperkalemia,1,,,,,False,False,False,False
+Hyperopia,1,,,,,False,False,False,False
+Hyperosmotic Hyperketotic State,1,,,,,False,False,False,False
+Hyperparathyroidism,100,Hyperparathyroidism -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Hyperprolactinemia,100,Hyperprolactinemia -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Hypertension,1,,,,,False,False,False,False
+Hypertension-related symptoms (nonspecific),100,High blood pressure is often silent; symptoms are nonspecific and need measurement.,"Have blood pressure checked | Seek emergency care for severe chest pain, neurological deficits, or sudden severe headache",,Antihypertensives only if prescribed,True,True,False,True
+Hypertensive Heart Disease,1,,,,,False,False,False,False
+hyperthyroidism,1,,,,,False,False,False,False
+Hypertrophic Obstructive Cardiomyopathy (HOCM),1,,,,,False,False,False,False
+Hypocalcemia,1,,,,,False,False,False,False
+hypoglycemia,1,,,,,False,False,False,False
+hyponatremia,1,,,,,False,False,False,False
+Hypoparathyroidism,100,Hypoparathyroidism -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Hypospadias,1,,,,,False,False,False,False
+hypothyroidism,1,,,,,False,False,False,False
+Idiopathic Absence of Menstruation,1,,,,,False,False,False,False
+Idiopathic Nonmenstrual Bleeding,1,,,,,False,False,False,False
+Idiopathic Thrombocytopenic Purpura,1,,,,,False,False,False,False
+Impetigo,100,Impetigo -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Impulse Control Disorder,1,,,,,False,False,False,False
+Indigestion,1,,,,,False,False,False,False
+Induced Abortion,1,,,,,False,False,False,False
+Infection of Open Wound,1,,,,,False,False,False,False
+Infertility,1,,,,,False,False,False,False
+Influenza,1,,,,,False,False,False,False
+Influenza (Flu),1,,,,,False,False,False,False
+Injury to Internal Organ,1,,,,,False,False,False,False
+Injury to the Finger,1,,,,,False,False,False,False
+Injury to the Leg,1,,,,,False,False,False,False
+Insect Bites,1,,,,,False,False,False,False
+insect bites and stings,1,,,,,False,False,False,False
+Insomnia (symptom pattern),100,Difficulty initiating or maintaining sleep with daytime impact.,Sleep hygiene | Seek care if chronic or associated with mood/breathing problems,,Address underlying cause | Hypnotics only short-term if prescribed,True,True,False,True
+Insulin Overdose,1,,,,,False,False,False,False
+Intertrigo,1,,,,,False,False,False,False
+Intestinal Malabsorption,1,,,,,False,False,False,False
+Intracranial Abscess,1,,,,,False,False,False,False
+Intracranial Hemorrhage,1,,,,,False,False,False,False
+iron deficiency anemia,1,,,,,False,False,False,False
+Irritable bowel pattern,100,Functional bowel symptoms without alarm features; diagnosis of exclusion by clinicians.,"Seek care for alarm features: bleeding, nocturnal symptoms, weight loss, anemia",Regular meals | Identify personal triggers,Symptomatic therapies only if clinician-directed,True,True,True,True
+irritable bowel syndrome,1,,,,,False,False,False,False
+Ischemia of the Bowel,1,,,,,False,False,False,False
+Juvenile Rheumatoid Arthritis,1,,,,,False,False,False,False
+Kaposi's Sarcoma,1,,,,,False,False,False,False
+Kidney Cancer,1,,,,,False,False,False,False
+Kidney Failure,1,,,,,False,False,False,False
+kidney infection,1,,,,,False,False,False,False
+kidney stone,1,,,,,False,False,False,False
+Kidney Stones,1,,,,,False,False,False,False
+Labyrinthitis,1,,,,,False,False,False,False
+Lateral Epicondylitis (Tennis Elbow),1,,,,,False,False,False,False
+Lead Poisoning,1,,,,,False,False,False,False
+Legionnaires' Disease,100,Legionnaires' Disease -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Leishmaniasis,1,,,,,False,False,False,False
+Leukemia,101,Leukemia -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Lice,1,,,,,False,False,False,False
+liver cancer,1,,,,,False,False,False,False
+low back pain,1,,,,,False,False,False,False
+Low-Tension Glaucoma,1,,,,,False,False,False,False
+Ludwig's angina,1,,,,,False,False,False,False
+Lung Cancer,101,Lung Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Lung Contusion,1,,,,,False,False,False,False
+lupus,1,,,,,False,False,False,False
+lyme disease,1,,,,,False,False,False,False
+Lymphedema,1,,,,,False,False,False,False
+Lymphoma,1,,,,,False,False,False,False
+Macular Degeneration,1,,,,,False,False,False,False
+Magnesium Deficiency,1,,,,,False,False,False,False
+major depression,1,,,,,False,False,False,False
+Malaria,1,,,,,False,False,False,False
+Marijuana Abuse,1,,,,,False,False,False,False
+Mastoiditis,1,,,,,False,False,False,False
+Measles,101,Measles -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Medulloblastoma,1,,,,,False,False,False,False
+Melanoma,101,Melanoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Meniere Disease,1,,,,,False,False,False,False
+Meningioma,1,,,,,False,False,False,False
+meningitis,1,,,,,False,False,False,False
+Menopause,1,,,,,False,False,False,False
+Mesothelioma,1,,,,,False,False,False,False
+Microscopic Polyangiitis,100,Microscopic Polyangiitis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+middle ear infection,1,,,,,False,False,False,False
+Migraine,101,"Recurrent primary headache disorder, often with sensory sensitivity and nausea.","Rest in a dark quiet room | Seek urgent care for sudden worst-ever headache, neurological deficits, fever with stiff neck",,Simple analgesics if appropriate | Specific migraine therapies only if prescribed,True,True,False,True
+Mild anxiety symptoms,100,Symptoms consistent with heightened anxiety; many causes exist and clinical assessment matters.,"Sleep, exercise, reduce stimulants | Seek care for panic, persistent distress, or suicidal thoughts",,Psychological therapies preferred first-line in many cases | Medicines only if prescribed,True,True,False,True
+Mild dehydration,100,"Fluid deficit from inadequate intake or losses (heat, diarrhea, vomiting).","Oral rehydration | Seek urgent care for confusion, fainting, inability to keep fluids down",Fluids with electrolytes as appropriate,Oral rehydration solution,True,True,True,True
+miscarriage,1,,,,,False,False,False,False
+Mitral Valve Disease,1,,,,,False,False,False,False
+Mittelschmerz,1,,,,,False,False,False,False
+Mixed Connective Tissue Disease,100,Mixed Connective Tissue Disease -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+mono,1,,,,,False,False,False,False
+Mononucleosis,1,,,,,False,False,False,False
+Mononucleosis (EBV),100,Mononucleosis (EBV) -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Mucocele,1,,,,,False,False,False,False
+Mucoepidermoid carcinoma,1,,,,,False,False,False,False
+Multiple Myeloma,101,Multiple Myeloma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+multiple sclerosis,1,,,,,False,False,False,False
+Mumps,101,Mumps -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Muscle Spasm,1,,,,,False,False,False,False
+Muscular Dystrophy,1,,,,,False,False,False,False
+Musculoskeletal back strain,100,Mechanical strain of back muscles/ligaments; often related to lifting or posture.,"Relative rest, gradual activity | Seek urgent care for saddle anesthesia, bowel/bladder loss, progressive leg weakness",,Simple analgesics if appropriate | Avoid prolonged bed rest,True,True,False,True
+myasthenia gravis,1,,,,,False,False,False,False
+Myelodysplastic Syndrome,1,,,,,False,False,False,False
+Myoclonus,1,,,,,False,False,False,False
+Myofascial Pain Syndrome,1,,,,,False,False,False,False
+Myopia,1,,,,,False,False,False,False
+Myositis,1,,,,,False,False,False,False
+Narcolepsy,1,,,,,False,False,False,False
+Neonatal Jaundice,1,,,,,False,False,False,False
+Neuralgia,1,,,,,False,False,False,False
+Neuroblastoma,1,,,,,False,False,False,False
+Neuromyelitis Optica,1,,,,,False,False,False,False
+Neuropathic Pain,1,,,,,False,False,False,False
+neutropenia,1,,,,,False,False,False,False
+Non-Hodgkin Lymphoma,100,Non-Hodgkin Lymphoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Nonalcoholic Liver Disease (NASH),1,,,,,False,False,False,False
+Normal Pressure Hydrocephalus,1,,,,,False,False,False,False
+Normal-Tension Glaucoma,1,,,,,False,False,False,False
+Nose Disorder,1,,,,,False,False,False,False
+obesity,1,,,,,False,False,False,False
+Ocular Hypertension,1,,,,,False,False,False,False
+Omphalitis,1,,,,,False,False,False,False
+Open-Angle Glaucoma,1,,,,,False,False,False,False
+Open Wound from Surgical Incision,1,,,,,False,False,False,False
+Opioid Use Disorder,1,,,,,False,False,False,False
+Optic Neuritis,1,,,,,False,False,False,False
+Oral Leukoplakia,1,,,,,False,False,False,False
+Orbital Cellulitis,1,,,,,False,False,False,False
+Orthorexia Nervosa,1,,,,,False,False,False,False
+osteoarthritis,1,,,,,False,False,False,False
+Osteoarthritis (symptomatic),100,Degenerative joint disease causing activity-related pain and stiffness.,Activity modification | Weight management if relevant | Seek care for acute hot swollen joint,,Topical or oral analgesics if appropriate | Other therapies only clinician-directed,True,True,False,True
+Osteochondrosis,1,,,,,False,False,False,False
+osteoporosis,1,,,,,False,False,False,False
+Osteosarcoma,1,,,,,False,False,False,False
+Other Specified Feeding or Eating Disorder (OSFED),1,,,,,False,False,False,False
+Otitis Media,1,,,,,False,False,False,False
+Otitis media (possible),100,"Middle-ear inflammation, more common in children.","Clinical ear examination recommended | Seek care for severe pain, swelling behind ear, or neurological symptoms",,Analgesia if appropriate | Antibiotics only if clinician decides they are indicated,True,True,False,True
+Otosclerosis,1,,,,,False,False,False,False
+Ovarian Cancer,101,Ovarian Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+ovarian cyst,1,,,,,False,False,False,False
+Ovarian Torsion,1,,,,,False,False,False,False
+Overflow Incontinence,1,,,,,False,False,False,False
+Pain after an Operation,1,,,,,False,False,False,False
+Pancreatic Cancer,101,Pancreatic Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+pancreatitis,1,,,,,False,False,False,False
+Panic Attack,1,,,,,False,False,False,False
+Panic disorder,1,,,,,False,False,False,False
+Parasitic Infections,1,,,,,False,False,False,False
+Parathyroid Adenoma,1,,,,,False,False,False,False
+Parkinson Disease,1,,,,,False,False,False,False
+parkinson's disease,1,,,,,False,False,False,False
+Parotid stones,1,,,,,False,False,False,False
+Pelvic Inflammatory Disease,101,Pelvic Inflammatory Disease -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Pelvic Organ Prolapse,1,,,,,False,False,False,False
+Pemphigus,1,,,,,False,False,False,False
+Pemphigus Vulgaris,100,Pemphigus Vulgaris -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Penile Cancer,1,,,,,False,False,False,False
+Peptic Ulcer,1,,,,,False,False,False,False
+Pericarditis,1,,,,,False,False,False,False
+Peritonitis,1,,,,,False,False,False,False
+Peritonsillar Abscess,1,,,,,False,False,False,False
+Pertussis (Whooping Cough),100,Pertussis (Whooping Cough) -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Peyronie Disease,1,,,,,False,False,False,False
+Pharyngitis,1,,,,,False,False,False,False
+Pheochromocytoma,100,Pheochromocytoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Pica,1,,,,,False,False,False,False
+Pigmentary Glaucoma,1,,,,,False,False,False,False
+Pilonidal Cyst,1,,,,,False,False,False,False
+Pineal Tumor,1,,,,,False,False,False,False
+Pinguecula,1,,,,,False,False,False,False
+pink eye,1,,,,,False,False,False,False
+Pinworm Infection,1,,,,,False,False,False,False
+Pituitary Adenoma,1,,,,,False,False,False,False
+Pituitary Disorder,1,,,,,False,False,False,False
+Pituitary Tumor,1,,,,,False,False,False,False
+Placenta Previa,1,,,,,False,False,False,False
+plantar fasciitis,1,,,,,False,False,False,False
+Pleomorphic adenoma,1,,,,,False,False,False,False
+pleural effusion,1,,,,,False,False,False,False
+pneumonia,1,,,,,False,False,False,False
+Pneumonia (possible — seek care),100,Infection of the lung parenchyma. Requires clinical assessment; not a self-care diagnosis.,"Seek medical care promptly | Urgent care if breathing is laboured, confusion, or low oxygen symptoms",,Antibiotics / antivirals only if prescribed after assessment,True,True,False,True
+pneumothorax,1,,,,,False,False,False,False
+Poisoning due to Analgesics,1,,,,,False,False,False,False
+Poisoning due to Antidepressants,1,,,,,False,False,False,False
+Polycystic Kidney Disease,1,,,,,False,False,False,False
+Polycystic Ovarian Syndrome,1,,,,,False,False,False,False
+Polycystic Ovary Syndrome,101,Polycystic Ovary Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Polycythemia Vera,1,,,,,False,False,False,False
+Polymyalgia Rheumatica,101,Polymyalgia Rheumatica -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Polymyositis,100,Polymyositis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Possible cardiac chest pain — seek emergency care,100,"Pattern that can indicate acute coronary syndrome. This is a triage signal, not a diagnosis.",Call emergency services for suspected heart attack symptoms | Do not wait for this app,,Emergency medical care only,True,True,False,True
+Possible meningitis features — seek emergency care,100,"Combination of fever, severe headache, and neck stiffness is an emergency pattern.",Seek emergency care immediately,,Emergency medical care only,True,True,False,True
+post traumatic stress disorder,1,,,,,False,False,False,False
+Postpartum Depression,1,,,,,False,False,False,False
+Preeclampsia,101,Preeclampsia -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Pregnancy-Induced Hypertension,1,,,,,False,False,False,False
+Pregnancy-Related Back Pain,1,,,,,False,False,False,False
+Premature Ventricular Contractions (PVCs),1,,,,,False,False,False,False
+Premenstrual Tension Syndrome,1,,,,,False,False,False,False
+Presbycusis,1,,,,,False,False,False,False
+Priapism,1,,,,,False,False,False,False
+Primary Insomnia,1,,,,,False,False,False,False
+Primary Peritoneal Cancer,1,,,,,False,False,False,False
+Prostate Cancer,101,Prostate Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Prostatitis,1,,,,,False,False,False,False
+Protein Deficiency,1,,,,,False,False,False,False
+Pseudogout,100,Pseudogout -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Pseudohypoparathyroidism,1,,,,,False,False,False,False
+Psoriasis,101,Psoriasis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Psoriatic Arthritis,100,Psoriatic Arthritis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+psychosis,1,,,,,False,False,False,False
+Pterygium,1,,,,,False,False,False,False
+Pulmonary Congestion,1,,,,,False,False,False,False
+pulmonary embolism,1,,,,,False,False,False,False
+Pulmonary Eosinophilia,1,,,,,False,False,False,False
+Pulmonary Fibrosis,1,,,,,False,False,False,False
+pulmonary hypertension,1,,,,,False,False,False,False
+Pulmonic Valve Disease,1,,,,,False,False,False,False
+Pyelonephritis,101,Pyelonephritis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Pyloric stenosis,1,,,,,False,False,False,False
+Rabies,101,Rabies -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Reactive Arthritis,100,Reactive Arthritis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Recurrent salivary stones,1,,,,,False,False,False,False
+Restless Leg Syndrome,1,,,,,False,False,False,False
+Restless Legs Syndrome,100,Restless Legs Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+retinal detachment,1,,,,,False,False,False,False
+Retinoblastoma,1,,,,,False,False,False,False
+rhabdomyolysis,1,,,,,False,False,False,False
+Rhabdomyosarcoma,1,,,,,False,False,False,False
+rheumatoid arthritis,1,,,,,False,False,False,False
+Rocky Mountain Spotted Fever,1,,,,,False,False,False,False
+Rosacea,100,Rosacea -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Rotator Cuff Injury,1,,,,,False,False,False,False
+Round Ligament Pain,1,,,,,False,False,False,False
+Rubella,101,Rubella -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Rumination Disorder,1,,,,,False,False,False,False
+Sarcoidosis,101,Sarcoidosis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Scabies,1,,,,,False,False,False,False
+Scarlet Fever,1,,,,,False,False,False,False
+schizophrenia,1,,,,,False,False,False,False
+sciatica,1,,,,,False,False,False,False
+Scleritis,1,,,,,False,False,False,False
+Scleroderma,1,,,,,False,False,False,False
+Scleroderma (Systemic Sclerosis),100,Scleroderma (Systemic Sclerosis) -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Scurvy,1,,,,,False,False,False,False
+Seasonal allergic rhinitis,100,"IgE-mediated nasal and ocular reaction to environmental allergens (pollen, dust, etc.).",Reduce allergen exposure when possible | Seek care for uncontrolled asthma symptoms or severe reactions,No specific diet required,Non-sedating antihistamines (educational) | Intranasal corticosteroid spray (educational),True,True,True,True
+seasonal allergies,1,,,,,False,False,False,False
+sebaceous cyst,1,,,,,False,False,False,False
+Seborrheic Dermatitis,101,Seborrheic Dermatitis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Secondary Glaucoma,1,,,,,False,False,False,False
+"Sedative, Hypnotic, or Anxiolytic Use Disorder",1,,,,,False,False,False,False
+Sedatives Poisoning,1,,,,,False,False,False,False
+sepsis,1,,,,,False,False,False,False
+shingles,1,,,,,False,False,False,False
+Sialolithiasis,1,,,,,False,False,False,False
+sickle cell anemia,1,,,,,False,False,False,False
+Sickle Cell Disease,1,,,,,False,False,False,False
+sinusitis,1,,,,,False,False,False,False
+Sinusitis (acute),100,"Inflammation of the paranasal sinuses, often following a cold.","Saline irrigation | Seek care for severe swelling, vision change, or high fever",,Supportive care | Antibiotics only for selected bacterial cases as judged by a clinician,True,True,False,True
+Sjögren's syndrome,1,,,,,False,False,False,False
+Sjogren's Syndrome,100,Sjogren's Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Sleep Apnea,101,Sleep Apnea -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Soft Tissue Sarcoma,1,,,,,False,False,False,False
+Spinal Cord Tumor,1,,,,,False,False,False,False
+Spondylitis,1,,,,,False,False,False,False
+spondylosis,1,,,,,False,False,False,False
+sprained ankle,1,,,,,False,False,False,False
+sprained knee,1,,,,,False,False,False,False
+sprained wrist,1,,,,,False,False,False,False
+Squamous Cell Carcinoma,101,Squamous Cell Carcinoma -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Stenosis of the Tear Duct,1,,,,,False,False,False,False
+Stevens-Johnson Syndrome,100,Stevens-Johnson Syndrome -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Stimulant Use Disorder,1,,,,,False,False,False,False
+Stomach Cancer,1,,,,,False,False,False,False
+stomach flu,1,,,,,False,False,False,False
+stomach ulcer,1,,,,,False,False,False,False
+strep throat,1,,,,,False,False,False,False
+Stress Incontinence,1,,,,,False,False,False,False
+stroke,1,,,,,False,False,False,False
+Subdural hemorrhage,1,,,,,False,False,False,False
+Submandibular stones,1,,,,,False,False,False,False
+Syndrome of Inappropriate Secretion of ADH (SIADH),1,,,,,False,False,False,False
+Syphilis,1,,,,,False,False,False,False
+Syringomyelia,1,,,,,False,False,False,False
+Temporomandibular Joint Disorder,1,,,,,False,False,False,False
+Tension Headache,101,Tension Headache -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Tension / mechanical neck pain,100,Common mechanical neck pain often linked to posture or strain.,"Ergonomics | Seek care for trauma, neurological symptoms, or severe unremitting pain",,Simple analgesics if appropriate,True,True,False,True
+Tension-type headache,100,Most common primary headache; often bilateral pressure without severe migraine features.,"Hydration, sleep, stress reduction | Seek care for sudden severe or progressive headache",,Paracetamol or ibuprofen if appropriate,True,True,False,True
+Testicular Cancer,1,,,,,False,False,False,False
+Testicular Torsion,100,Testicular Torsion -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Tetanus,101,Tetanus -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Thalassemia,1,,,,,False,False,False,False
+Thoracic Aortic Aneurysm,1,,,,,False,False,False,False
+thoracic radiculopathy,1,,,,,False,False,False,False
+Threatened Pregnancy,1,,,,,False,False,False,False
+Thrombocytopenia,1,,,,,False,False,False,False
+Thrombophlebitis,1,,,,,False,False,False,False
+Thyroid Cancer,101,Thyroid Cancer -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Thyroid Disease,1,,,,,False,False,False,False
+thyroid nodules,1,,,,,False,False,False,False
+Tietze Syndrome,1,,,,,False,False,False,False
+Torticollis,1,,,,,False,False,False,False
+Toxoplasmosis,100,Toxoplasmosis -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Transient ischemic attack,1,,,,,False,False,False,False
+traumatic brain injury,1,,,,,False,False,False,False
+Trichomoniasis,1,,,,,False,False,False,False
+Tuberculosis,1,,,,,False,False,False,False
+Tuberous Sclerosis,1,,,,,False,False,False,False
+Turner syndrome,1,,,,,False,False,False,False
+type 1 diabetes,1,,,,,False,False,False,False
+type 2 diabetes,1,,,,,False,False,False,False
+Type 2 diabetes symptoms (possible),100,Suggestive metabolic symptoms; diagnosis requires blood tests by a clinician.,"Arrange clinical testing | Seek urgent care for vomiting, confusion, or severe dehydration",,Lifestyle measures | Medicines only if prescribed after diagnosis,True,True,False,True
+Typhoid Fever,101,Typhoid Fever -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+ulcerative colitis,1,,,,,False,False,False,False
+upper respiratory infection,1,,,,,False,False,False,False
+Urethral Valves,1,,,,,False,False,False,False
+Urge Incontinence,1,,,,,False,False,False,False
+Urinary Stones (Kidney Stones),1,,,,,False,False,False,False
+Urinary tract infection,101,Bacterial infection of the urinary tract. More common in females.,Seek care promptly | Do not ignore fever or flank pain (possible kidney involvement),,Antibiotics only if prescribed after clinical assessment,True,True,False,True
+Urinary Tract Infection (Adult),100,Urinary Tract Infection (Adult) -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Urinary Tract Infection (UTI),1,,,,,False,False,False,False
+Urticaria (Hives),1,,,,,False,False,False,False
+Uterine Cancer,1,,,,,False,False,False,False
+Uterine Fibroids,101,Uterine Fibroids -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Vaginal Cancer,1,,,,,False,False,False,False
+Vaginal Cyst,1,,,,,False,False,False,False
+Vaginal Yeast Infection,1,,,,,False,False,False,False
+Varicella (Chickenpox),100,Varicella (Chickenpox) -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Varicose Veins,1,,,,,False,False,False,False
+Vasculitis,1,,,,,False,False,False,False
+Vesicoureteral Reflux,1,,,,,False,False,False,False
+Viral Warts,1,,,,,False,False,False,False
+Vitamin A Deficiency,1,,,,,False,False,False,False
+Vitamin B12 Deficiency,1,,,,,False,False,False,False
+vitamin d deficiency,1,,,,,False,False,False,False
+Vitiligo,100,Vitiligo -- clinical condition with characteristic presentation; see your physician for evaluation.,Seek professional evaluation for new or worsening symptoms,,Therapies only as prescribed after a clinical evaluation,True,True,False,True
+Vitreous Hemorrhage,1,,,,,False,False,False,False
+Vocal cord polyp,1,,,,,False,False,False,False
+Volvulus,1,,,,,False,False,False,False
+Von Hippel-Lindau Disease,1,,,,,False,False,False,False
+Von Willebrand Disease,1,,,,,False,False,False,False
+Vulvar Cancer,1,,,,,False,False,False,False
+Vulvodynia,1,,,,,False,False,False,False
+Warthin tumor,1,,,,,False,False,False,False
+West Nile Virus,1,,,,,False,False,False,False
+Wharton's duct stones,1,,,,,False,False,False,False
+Whooping Cough,1,,,,,False,False,False,False
+Wilms Tumor,1,,,,,False,False,False,False
+Wilson Disease,1,,,,,False,False,False,False
+Wilson's Disease,1,,,,,False,False,False,False
+Zika Virus,1,,,,,False,False,False,False
