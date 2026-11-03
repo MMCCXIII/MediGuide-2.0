@@ -13,9 +13,7 @@ import uuid
 from datetime import datetime, timezone
 from typing import Any
 
-from cryptography.fernet import InvalidToken
-
-from .patient_history import HISTORY_DB_PATH, _fernet, _owner_hash, _validate_key
+from .patient_history import HISTORY_DB_PATH, InvalidToken, _fernet, _owner_hash, _validate_key
 
 
 def _connect() -> sqlite3.Connection:

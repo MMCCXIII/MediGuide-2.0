@@ -16,14 +16,35 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from cryptography.fernet import Fernet, InvalidToken
-from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+try:
+    from cryptography.fernet import Fernet, InvalidToken
+    from cryptography.hazmat.primitives import hashes
+    from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+    _CRYPTOGRAPHY_IMPORT_ERROR: ModuleNotFoundError | None = None
+except ModuleNotFoundError as exc:  # pragma: no cover - only used in broken deployments
+    # Keep the main symptom assistant importable if a deployment has not installed
+    # the encrypted-history dependency. Feature calls below remain fail-closed.
+    _CRYPTOGRAPHY_IMPORT_ERROR = exc
+
+    class InvalidToken(Exception):
+        """Fallback exception used only when cryptography is unavailable."""
+
+    Fernet = Any  # type: ignore[assignment,misc]
+    hashes = None  # type: ignore[assignment]
+    PBKDF2HMAC = None  # type: ignore[assignment]
 
 from .config import PROJECT_ROOT
 
 HISTORY_DB_PATH = PROJECT_ROOT / "data" / "medguide_patient_history.sqlite3"
 MIN_HISTORY_KEY_LENGTH = 16
+
+
+def _require_cryptography() -> None:
+    if _CRYPTOGRAPHY_IMPORT_ERROR is not None:
+        raise RuntimeError(
+            "Encrypted patient history is unavailable because the cryptography package "
+            "is not installed. Reboot the Streamlit app after installing requirements.txt."
+        ) from _CRYPTOGRAPHY_IMPORT_ERROR
 
 
 def _connect() -> sqlite3.Connection:
@@ -67,6 +88,7 @@ def _validate_key(history_key: str) -> str:
 
 
 def _owner_hash(key: str) -> str:
+    _require_cryptography()
     # A deterministic, deliberately expensive verifier prevents a stolen database
     # from enabling cheap SHA-256 dictionary checks against user-selected keys.
     verifier_salt = b"mediguide-owner-identifier-v2"
@@ -77,6 +99,7 @@ def _owner_hash(key: str) -> str:
 
 
 def _fernet(key: str, salt: bytes) -> Fernet:
+    _require_cryptography()
     derived = PBKDF2HMAC(algorithm=hashes.SHA256(), length=32, salt=salt, iterations=390_000).derive(key.encode("utf-8"))
     return Fernet(base64.urlsafe_b64encode(derived))
 
