@@ -26,3 +26,11 @@ def test_training_data_is_a_clean_binary_matrix():
 
 def test_models_directory_is_the_default_data_location():
     assert locate_data_dir() == MODELS_DIR
+
+
+def test_runtime_uses_augmented_training_corpus():
+    bundle = load_data_bundle()
+    assert len(bundle.targets) == 13_925
+    assert bundle.class_count == 647
+    assert len(bundle.feature_names) == 1_495
+    assert not any(name.startswith("_") for name in bundle.feature_names)

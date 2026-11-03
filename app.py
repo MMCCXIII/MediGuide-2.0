@@ -1316,7 +1316,7 @@ def render_secondary(data, classical, tensorflow, extractor) -> None:
 
     with st.expander("Deployment & privacy readiness", expanded=False):
         checks = [
-            ("Required training/support CSVs present", all((Path(__file__).parent / "models" / name).exists() for name in ["Training.csv", "diseases_and_symptoms.csv", "Symptom-severity.csv", "condition_evidence.csv"])),
+            ("Augmented training/support CSVs present", all((Path(__file__).parent / "models" / name).exists() for name in ["Training_synthetic_augmented.csv", "diseases_and_symptoms.csv", "Symptom-severity.csv", "condition_evidence.csv"])),
             ("Merged condition count is 500+", data.class_count >= 500),
             ("Merged symptom feature count is 1,400+", len(data.feature_names) >= 1400),
             ("Patient-history storage is opt-in", True),

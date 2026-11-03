@@ -7,7 +7,7 @@ It preserves the current merged rows and adds deterministic symptom-subset varia
 - `existing_merged_record`: row already present in the current merged catalog.
 - `synthetic_symptom_subset`: a generated subset of symptoms from the same label's existing profile.
 
-The synthetic rows are **not observed patient records, not clinical evidence, and not validated diagnostic training data**. They must not be presented to users as patient cases or used to claim model accuracy. The deployed app and existing model artifacts continue to use the original data until this optional artifact is independently reviewed and deliberately adopted.
+The synthetic rows are **not observed patient records, not clinical evidence, and not validated diagnostic training data**. They must not be presented to users as patient cases or used to claim model accuracy. The deployed app now loads this augmented corpus for its dataset-profile prediction fallback. Existing TensorFlow/Random Forest artifacts whose dataset fingerprints are stale are rejected until they are retrained on this exact corpus.
 
 Some labels cannot reach five unique rows because their source profile contains too few distinct symptoms. The companion `synthetic_augmentation_metadata.json` records the exact per-label outcome and source provenance.
 

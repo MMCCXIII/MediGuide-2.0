@@ -60,7 +60,7 @@ def _candidate_subsets(symptoms: tuple[str, ...], label: str) -> list[tuple[str,
 
 
 def build_output(target_records: int = TARGET_RECORDS) -> tuple[pd.DataFrame, dict]:
-    bundle = load_data_bundle()
+    bundle = load_data_bundle(training_filename="Training.csv")
     frame = bundle.features.copy()
     frame["prognosis"] = bundle.targets.to_numpy()
     feature_names = list(bundle.feature_names)

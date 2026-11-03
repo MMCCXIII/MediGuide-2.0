@@ -117,7 +117,7 @@ python -m src.tensorflow_predictor --train
 Then restart the app and run `pytest -q`. Do not describe TensorFlow as active until the artifacts have been generated and loaded successfully.
 
 
-## Dataset evaluation
+## Dataset evaluation and runtime training corpus
 
 Open **Method & data** to review the dataset audit and grouped holdout benchmark. To regenerate the reports:
 
@@ -127,6 +127,8 @@ python scripts/audit_dataset.py --evaluate
 ```
 
 The evaluation is a synthetic/imported-profile benchmark only. It is not an independent clinical validation set; the report lists conditions that have too few distinct patterns to evaluate.
+
+The Streamlit app loads `models/Training_synthetic_augmented.csv` for its dataset-backed prediction fallback. The file contains explicit provenance columns that are ignored as features. Pre-existing TensorFlow or Random Forest artifacts with a different dataset fingerprint are rejected rather than silently used with stale training data; retrain them with the augmented corpus before treating them as active.
 
 
 

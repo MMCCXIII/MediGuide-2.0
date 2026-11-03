@@ -1,7 +1,8 @@
 """Dataset loading, normalization, and feature preparation utilities.
 
-The model's feature space is intentionally created from ``Training.csv`` only.
-All free-text symptoms are normalized against this same list before inference.
+The deployed model-development corpus is the clearly labeled synthetic
+augmentation in ``Training_synthetic_augmented.csv``. Its provenance columns
+are metadata, not symptoms, and its rows are not clinical evidence.
 """
 
 from __future__ import annotations
@@ -20,7 +21,7 @@ from .config import DATA_DIR, PROJECT_ROOT
 
 
 REQUIRED_DATASETS = {
-    "training": "Training.csv",
+    "training": "Training_synthetic_augmented.csv",
     "severity": "Symptom-severity.csv",
     "medications": "medications.csv",
     "description": "description.csv",
@@ -75,6 +76,11 @@ def locate_data_dir(project_root: Path = PROJECT_ROOT) -> Path:
 
 def _drop_index_columns(frame: pd.DataFrame) -> pd.DataFrame:
     return frame.loc[:, ~frame.columns.astype(str).str.match(r"(?i)^unnamed: ?\d+$")].copy()
+
+
+def _drop_training_metadata_columns(frame: pd.DataFrame) -> pd.DataFrame:
+    """Remove augmentation provenance columns before constructing features."""
+    return frame.loc[:, ~frame.columns.astype(str).str.startswith("_")].copy()
 
 
 def _coalesce_duplicate_features(frame: pd.DataFrame) -> pd.DataFrame:
@@ -237,16 +243,17 @@ def _build_support_map(data_dir: Path) -> tuple[dict[str, SupportInfo], dict[str
     return support, previews
 
 
-def load_data_bundle(data_dir: Path | None = None) -> DataBundle:
+def load_data_bundle(data_dir: Path | None = None, training_filename: str | None = None) -> DataBundle:
     """Clean raw files and construct the binary matrix consumed by ML models."""
     source_dir = data_dir or locate_data_dir()
-    raw_training = _drop_index_columns(_read_csv(source_dir / REQUIRED_DATASETS["training"]))
+    training_path = source_dir / (training_filename or REQUIRED_DATASETS["training"])
+    raw_training = _drop_training_metadata_columns(_drop_index_columns(_read_csv(training_path)))
     label_column = next(
         (column for column in raw_training.columns if normalize_key(column) == "prognosis"),
         None,
     )
     if label_column is None:
-        raise ValueError("Training.csv must contain a prognosis target column.")
+        raise ValueError(f"{training_path.name} must contain a prognosis target column.")
 
     raw_targets = raw_training.pop(label_column).astype(str).str.strip()
     valid_rows = raw_targets.ne("") & raw_targets.ne("nan")
@@ -265,10 +272,13 @@ def load_data_bundle(data_dir: Path | None = None) -> DataBundle:
     # mapped to their existing label, and overlapping symptom names share one
     # feature column. Original rows remain intact and new disease profiles are
     # added as additional training rows rather than replacing prior examples.
+    # The synthetic augmentation is already a merged feature matrix. Merging
+    # diseases_and_symptoms.csv again would duplicate its 647 source profiles.
     expanded_path = source_dir / "diseases_and_symptoms.csv"
     expanded_rows: list[tuple[str, set[str]]] = []
     expanded_symptoms: set[str] = set()
-    if expanded_path.exists():
+    is_premerged_training = training_path.name == "Training_synthetic_augmented.csv"
+    if expanded_path.exists() and not is_premerged_training:
         expanded = _drop_index_columns(_read_csv(expanded_path))
         columns_by_key = {normalize_key(column): column for column in expanded.columns}
         disease_col = columns_by_key.get("disease") or columns_by_key.get("diagnosis") or columns_by_key.get("condition")
@@ -385,4 +395,3 @@ def load_kb_data_bundle() -> DataBundle:
         previews={},
         source_dir=DATA_DIR,
     )
-

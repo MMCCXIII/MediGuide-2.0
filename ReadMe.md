@@ -13,15 +13,16 @@ It is **not a diagnostic device, medical advice service, prescribing system, or 
 | Component | Current release |
 |---|---:|
 | Application version | 1.0.0 |
-| Training rows | 11,977 |
+| Training rows used by the app | 13,925 |
 | Condition classes | 647 |
 | Normalized symptom features | 1,495 |
+| Runtime training file | `models/Training_synthetic_augmented.csv` |
 | Optional TensorFlow artifact | `models/mediguide_tensorflow.keras` (not bundled) |
 | Packaged Random Forest artifact | `models/random_forest.joblib` |
 | Dataset schema | v4 |
 | Python target | 3.12 |
 
-The training data is synthetic model-development data generated/cleaned for the project. It is not patient data, clinical-trial data, or evidence of diagnostic accuracy.
+The runtime training data is synthetic model-development data generated/cleaned for the project, including clearly labeled symptom-subset augmentation. It is not patient data, clinical-trial data, or evidence of diagnostic accuracy. The original merged corpus remains available as the source for regenerating the augmentation.
 
 
 ### UI/UX refresh
