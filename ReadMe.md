@@ -26,9 +26,8 @@ The training data is synthetic model-development data generated/cleaned for the 
 
 ### UI/UX refresh
 
-The main experience remains a **free-text chatbot**. Users describe symptoms in their own words and can continue the conversation; example prompts only start a chat message and do not open a symptom-selection form. The interface uses a responsive teal-and-navy medical theme, clearer conversational onboarding, and separate destinations for Chat, Appointments, My health, Health library, and Method & data.
+The main experience remains a **free-text chatbot**. Users describe symptoms in their own words and can continue the conversation; example prompts only start a chat message and do not open a symptom-selection form. The interface uses a responsive teal-and-navy medical theme, clearer conversational onboarding, and separate destinations for Chat, Health library, and Method & data.
 
-- **Appointments:** create, review, and cancel appointments using date and time pickers. Appointment details are encrypted using the same opt-in private history key as saved assessments. Upcoming reminders are shown in the app while it is open; they are not push notifications or SMS alerts.
 - **Health library:** search the bundled condition catalogue without interrupting the chatbot workflow.
 - **Mobile layout:** wider desktop content, compact tab styling, responsive padding, larger touch-friendly buttons, and a simplified welcome state.
 
@@ -325,8 +324,7 @@ For reproducibility, keep the application code, `models/` artifacts, metadata, a
 - **Dataset audit:** open **Method & data → Dataset audit & evaluation readiness** for duplicate symptom-vector groups, conflicting labels, and the number of conditions that cannot be held out because they have only one example.
 - **Grouped holdout benchmark:** `python scripts/audit_dataset.py --evaluate` regenerates `models/dataset_audit_report.json` and `models/DATASET_AUDIT_REPORT.md`. Exact symptom vectors are kept out of both train and test sides to reduce leakage. The current benchmark covers only classes with enough unique patterns and is **not clinical diagnostic accuracy**; no independent patient-outcome cohort is included.
 - **Prediction explanations and sources:** each suggested pattern shows reported symptoms that also occur in its stored profile. Where the evidence CSV includes a reference, the condition detail panel shows the source URL and its review/validation status. Missing references are disclosed rather than invented.
-- **Saved assessments and follow-up:** saving is optional. Open **Private saved history** in the sidebar, enter a unique passphrase of at least 16 characters, and accept the storage notice. Then use **Save assessment & set follow-up** in the chat. The **My history** tab supports report downloads, due-date tracking, follow-up notes, status changes, and deletion.
-- **Privacy:** saved report payloads are encrypted in the app's local SQLite database. The app does not save the private history key. If the key is lost, those records cannot be recovered. The database is stored on the app host (not necessarily the user's phone); public deployments still need HTTPS, access controls, retention rules, and a privacy notice. Unsaved chat state is not automatically copied to browser localStorage anymore.
+- **Privacy:** conversation state is held in the active application session and is not automatically copied to browser localStorage. Do not enter identifying or medical-record information.
 
 To run checks:
 

@@ -58,9 +58,8 @@ SHORT_DISCLAIMER = (
 )
 
 PRIVACY_NOTICE = (
-    "Privacy note: conversation state is held by the running application session. Opt-in saved assessments "
-    "are encrypted in the application's server-side database. The deployment operator controls server access, "
-    "backups, retention, and deletion. Do not enter direct identifiers or information you do not want stored."
+    "Privacy note: conversation state is held by the running application session. Do not enter direct identifiers "
+    "or information you do not want stored."
 )
 
 MEDICATION_DATASET_WARNING = (

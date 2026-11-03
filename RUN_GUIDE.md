@@ -117,7 +117,7 @@ python -m src.tensorflow_predictor --train
 Then restart the app and run `pytest -q`. Do not describe TensorFlow as active until the artifacts have been generated and loaded successfully.
 
 
-## Dataset evaluation and saved history
+## Dataset evaluation
 
 Open **Method & data** to review the dataset audit and grouped holdout benchmark. To regenerate the reports:
 
@@ -128,7 +128,6 @@ python scripts/audit_dataset.py --evaluate
 
 The evaluation is a synthetic/imported-profile benchmark only. It is not an independent clinical validation set; the report lists conditions that have too few distinct patterns to evaluate.
 
-To save a report, expand **Private saved history** in the sidebar, set a unique passphrase (at least 16 characters), and accept the storage notice. In Chat, choose **Save assessment & set follow-up**. Use **My history** to download the saved report, add follow-up progress notes, mark follow-up status, or delete records. Keep the passphrase safe: it is not stored or recoverable. Saved records are encrypted in the app host's local database, so this is not device-only storage on a hosted deployment.
 
 
 ## Secure API deployment

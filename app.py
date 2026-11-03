@@ -17,7 +17,7 @@ import html
 import json
 import uuid
 from typing import Any
-from datetime import datetime, date, timedelta
+from datetime import datetime
 from pathlib import Path
 from PIL import Image
 
@@ -61,16 +61,6 @@ from src.data_pipeline import load_kb_data_bundle
 from src.monitoring import record_prediction
 from src.database import record_prediction as persist_prediction
 from src.dataset_audit import audit_bundle, audit_frame
-from src.patient_history import (
-    MIN_HISTORY_KEY_LENGTH,
-    delete_all_assessments,
-    delete_assessment,
-    list_assessments,
-    save_assessment,
-    update_assessment_payload,
-    update_follow_up,
-)
-from src.appointments import create_appointment, list_appointments, delete_appointment
 
 st.set_page_config(
     page_title="MediGuide AI",
@@ -542,21 +532,7 @@ def render_sidebar(data, classical, tensorflow) -> None:
             )
 
         with st.expander("Privacy & data" ,expanded=True):
-            st.caption("Chat messages stay in the active session unless you explicitly save an assessment. Avoid names, phone numbers, addresses, or medical-record numbers.")
-            st.caption("Saved assessment payloads are encrypted in the app server's local database. The app does not store your history key; anyone with server/database access may still control the storage environment.")
-        with st.expander("Private saved history", expanded=False):
-            st.text_input(
-                "Private history key",
-                type="password",
-                key="history_key_input",
-                help=f"Use a unique passphrase of at least {MIN_HISTORY_KEY_LENGTH} characters. Keep it safe; it is not recoverable by the app.",
-            )
-            st.checkbox(
-                "I understand saved health notes are stored encrypted on the app host.",
-                key="history_storage_consent",
-            )
-            st.caption("History is opt-in. Your key is kept only in the active app session and is never written to the database.")
-
+            st.caption("Chat messages stay in the active session. Avoid names, phone numbers, addresses, or medical-record numbers.")
         with st.expander("About" ,expanded=False):
             st.caption(
                 "MedGuide is an experimental educational symptom-pattern assistant. It uses biomedical NLP and symptom-profile matching to display possible patterns, with conservative keyword-based safety prompts. Those prompts are not a validated triage system, and model scores are not diagnostic probabilities. It does not diagnose, prescribe, or replace a licensed clinician."
@@ -1115,39 +1091,6 @@ def render_chat(data, classical, tensorflow, extractor) -> None:
                     **_full_width(),
                 )
 
-    # ── Opt-in encrypted assessment history ───────────────────────────────────
-    if chat.get("last_prediction") and chat.get("messages"):
-        with st.expander("🔐 Save assessment & set follow-up", expanded=False):
-            history_key = str(st.session_state.get("history_key_input", "") or "").strip()
-            consent = bool(st.session_state.get("history_storage_consent", False))
-            st.caption("Saving is optional. The report includes your symptom notes and model output, encrypted in the app's local database.")
-            schedule_follow_up = st.checkbox("Set a follow-up reminder", value=False, key=f"history-schedule-{chat['id']}")
-            follow_up_date = None
-            if schedule_follow_up:
-                follow_up_date = st.date_input(
-                    "Follow-up date",
-                    value=date.today() + timedelta(days=7),
-                    key=f"history-due-{chat['id']}",
-                )
-            if not consent:
-                st.info("Open **Private saved history** in the sidebar and confirm the storage notice before saving.")
-            if st.button("Save encrypted assessment", key=f"save-assessment-{chat['id']}", disabled=(not consent or len(history_key) < MIN_HISTORY_KEY_LENGTH)):
-                snapshot = {
-                    "title": chat.get("title", "Saved assessment"),
-                    "messages": chat.get("messages", []),
-                    "symptoms": sorted(chat.get("symptoms") or []),
-                    "context": chat.get("context") or {},
-                    "last_prediction": chat.get("last_prediction"),
-                    "triage_level": chat.get("triage_level"),
-                    "triage_message": chat.get("triage_message"),
-                    "follow_up_entries": [],
-                }
-                try:
-                    record_id = save_assessment(history_key, snapshot, follow_up_date.isoformat() if follow_up_date else None)
-                    st.success(f"Assessment saved. Reference: {record_id[:8]}. Open the **My history** tab to review it.")
-                except Exception as exc:
-                    st.error(f"Could not save this assessment: {exc}")
-
     # Raw chats are no longer written automatically to browser localStorage.
     # Health-history persistence is opt-in and uses encrypted records instead.
 
@@ -1172,156 +1115,6 @@ def _edit_last_user_message(chat: dict) -> None:
         raw = raw[: raw.rfind(" (")]
     st.session_state.pending_prompt = raw
     st.rerun()
-
-def render_saved_history() -> None:
-    st.subheader("Saved assessments & follow-up tracker")
-    st.caption("Only records saved with your private history key appear here. The key is not stored; if you lose it, encrypted records cannot be recovered.")
-    history_key = str(st.session_state.get("history_key_input", "") or "").strip()
-    if len(history_key) < MIN_HISTORY_KEY_LENGTH:
-        st.info(f"Enter your private history key (at least {MIN_HISTORY_KEY_LENGTH} characters) in the sidebar to unlock your saved assessments.")
-        return
-    try:
-        records = list_assessments(history_key)
-    except Exception as exc:
-        st.error(f"Could not read saved history: {exc}")
-        return
-    if not records:
-        st.info("No saved assessments were found for this key. Saving is always optional.")
-        return
-
-    today = date.today()
-    for record in records:
-        payload = record["payload"]
-        due = record.get("follow_up_date") or "Not scheduled"
-        overdue = bool(record.get("follow_up_date") and record.get("follow_up_status") == "Pending" and record["follow_up_date"] < today.isoformat())
-        title = str(payload.get("title", "Saved assessment"))[:80]
-        status = record.get("follow_up_status", "Pending")
-        heading = f"{title} · {record['created_at'][:10]} · follow-up: {status}"
-        with st.expander(("⚠️ " if overdue else "") + heading, expanded=overdue):
-            st.write(f"**Follow-up date:** {due}" + (" — overdue" if overdue else ""))
-            prediction = payload.get("last_prediction") or {}
-            st.write(f"**Pattern noted:** {prediction.get('disease', 'Not available')}")
-            symptoms = payload.get("symptoms") or []
-            st.write("**Tracked symptoms:** " + (", ".join(str(item).replace("_", " ") for item in symptoms) if symptoms else "None recorded"))
-            entries = payload.get("follow_up_entries") or []
-            if entries:
-                st.markdown("**Follow-up timeline**")
-                for entry in entries:
-                    st.markdown(f"- **{html.escape(str(entry.get('date', '')))}** — {html.escape(str(entry.get('note', '')))}")
-            report_chat = dict(payload)
-            report_chat["symptoms"] = set(payload.get("symptoms") or [])
-            st.download_button(
-                "Download saved visit report",
-                data=export_doctor_summary(report_chat),
-                file_name=f"mediguide_saved_report_{record['record_id'][:8]}.md",
-                mime="text/markdown",
-                key=f"download-history-{record['record_id']}",
-            )
-            with st.form(f"follow-up-form-{record['record_id']}"):
-                follow_note = st.text_area("Follow-up symptoms / progress", placeholder="e.g. Fever improved; cough continues. Avoid names or identifying details.", key=f"follow-note-{record['record_id']}")
-                new_status = st.selectbox("Follow-up status", ["Pending", "Completed", "Cancelled"], index=["Pending", "Completed", "Cancelled"].index(status) if status in {"Pending", "Completed", "Cancelled"} else 0, key=f"follow-status-{record['record_id']}")
-                submitted = st.form_submit_button("Save follow-up update")
-            if submitted:
-                if follow_note.strip():
-                    entries.append({"date": date.today().isoformat(), "note": scrub_pii(follow_note.strip())[:1000]})
-                    payload["follow_up_entries"] = entries
-                    if not update_assessment_payload(history_key, record["record_id"], payload):
-                        st.error("The follow-up note could not be saved.")
-                        continue
-                update_follow_up(history_key, record["record_id"], new_status)
-                st.success("Follow-up tracker updated.")
-                st.rerun()
-            if st.button("Delete this saved assessment", key=f"delete-history-{record['record_id']}"):
-                if delete_assessment(history_key, record["record_id"]):
-                    st.success("Saved assessment deleted.")
-                    st.rerun()
-    st.divider()
-    if st.checkbox("Confirm deletion of all saved assessments for this history key", key="confirm-delete-all-history"):
-        if st.button("Delete all my saved assessments", type="secondary"):
-            deleted = delete_all_assessments(history_key)
-            st.success(f"Deleted {deleted} saved record(s).")
-            st.rerun()
-
-
-def render_appointments() -> None:
-    """Private, encrypted appointment planner with in-app upcoming reminders."""
-    st.markdown("## Appointments")
-    st.caption("Plan a visit and see reminders while MediGuide is open. This is an in-app reminder, not an SMS or push notification service.")
-    history_key = str(st.session_state.get("history_key_input", "") or "").strip()
-    if len(history_key) < MIN_HISTORY_KEY_LENGTH:
-        st.info(f"To keep appointments private across sessions, enter your private history key (at least {MIN_HISTORY_KEY_LENGTH} characters) in the sidebar under **Private saved history**.")
-        return
-
-    with st.expander("＋ Add an appointment", expanded=True):
-        with st.form("new-appointment-form", clear_on_submit=True):
-            purpose = st.text_input("Appointment purpose", placeholder="e.g. Follow-up visit", max_chars=100)
-            provider = st.text_input("Clinic or provider (optional)", placeholder="e.g. Family clinic", max_chars=100)
-            c1, c2 = st.columns(2)
-            with c1:
-                appt_date = st.date_input("Date", value=date.today() + timedelta(days=1), min_value=date.today())
-            with c2:
-                appt_time = st.time_input("Time", value=datetime.now().replace(minute=0, second=0, microsecond=0).time())
-            notes = st.text_area("Private note (optional)", placeholder="Only include details you need for the visit.", max_chars=1000)
-            submitted = st.form_submit_button("Save appointment", type="primary", **_full_width())
-        if submitted:
-            if not purpose.strip():
-                st.error("Enter a short appointment purpose first.")
-            else:
-                try:
-                    scheduled = datetime.combine(appt_date, appt_time).isoformat(timespec="minutes")
-                    create_appointment(history_key, {
-                        "purpose": scrub_pii(purpose.strip())[:100],
-                        "provider": scrub_pii(provider.strip())[:100],
-                        "notes": scrub_pii(notes.strip())[:1000],
-                        "scheduled_at": scheduled,
-                    })
-                    st.success("Appointment saved securely.")
-                    st.rerun()
-                except Exception as exc:
-                    st.error(f"Could not save this appointment: {exc}")
-
-    try:
-        appointments = list_appointments(history_key)
-    except Exception as exc:
-        st.error(f"Could not load appointments: {exc}")
-        return
-    now = datetime.now()
-    future = []
-    for appt in appointments:
-        try:
-            scheduled = datetime.fromisoformat(appt["payload"].get("scheduled_at", ""))
-        except (TypeError, ValueError):
-            continue
-        appt["_scheduled"] = scheduled
-        if scheduled >= now:
-            future.append(appt)
-    future.sort(key=lambda item: item["_scheduled"])
-
-    soon = [item for item in future if item["_scheduled"] <= now + timedelta(hours=24)]
-    if soon:
-        next_appt = soon[0]
-        st.info(f"**Upcoming reminder:** {next_appt['payload'].get('purpose', 'Appointment')} — {next_appt['_scheduled'].strftime('%a, %d %b at %I:%M %p')}. Keep MediGuide open to see this reminder.")
-    st.markdown("### Upcoming visits")
-    if not future:
-        st.markdown("<div class='welcome-card'><div class='welcome-title' style='font-size:1.3rem'>No upcoming appointments</div><p class='welcome-copy'>Your visits will appear here after you add one.</p></div>", unsafe_allow_html=True)
-        return
-    for item in future:
-        payload = item["payload"]
-        scheduled = item["_scheduled"]
-        with st.container(border=True):
-            left, right = st.columns([0.8, 0.2])
-            with left:
-                st.markdown(f"**{html.escape(str(payload.get('purpose', 'Appointment')))}**")
-                st.caption(scheduled.strftime("%A, %d %B %Y · %I:%M %p"))
-                if payload.get("provider"):
-                    st.write(f"Clinic/provider: {html.escape(str(payload['provider']))}")
-                if payload.get("notes"):
-                    st.caption(str(payload["notes"]))
-            with right:
-                if st.button("Cancel", key=f"delete-appt-{item['appointment_id']}"):
-                    delete_appointment(history_key, item["appointment_id"])
-                    st.rerun()
-
 
 def render_health_library(data) -> None:
     """Searchable, lightweight condition library; it never replaces the chat flow."""
@@ -1573,15 +1366,11 @@ def main() -> None:
     render_sidebar(data, classical, tensorflow)
     render_brand()
 
-    chat_tab, appointments_tab, history_tab, library_tab, more_tab = st.tabs([
-        "💬 Chat", "📅 Appointments", "🗂️ My health", "📚 Health library", "⚙️ Method & data"
+    chat_tab, library_tab, more_tab = st.tabs([
+        "💬 Chat", "📚 Health library", "⚙️ Method & data"
     ])
     with chat_tab:
         render_chat(data, classical, tensorflow, extractor)
-    with appointments_tab:
-        render_appointments()
-    with history_tab:
-        render_saved_history()
     with library_tab:
         render_health_library(data)
     with more_tab:
