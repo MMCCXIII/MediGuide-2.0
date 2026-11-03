@@ -1,0 +1,5190 @@
+{
+  "warning": "Synthetic symptom-subset rows are not observed patient records and are not clinical evidence.",
+  "source": "Current merged DataBundle from Training.csv plus diseases_and_symptoms.csv",
+  "target_records_per_label": 5,
+  "catalog_labels": 647,
+  "original_rows": 11977,
+  "synthetic_rows_added": 1948,
+  "output_rows": 13925,
+  "labels_reaching_target": 579,
+  "labels_below_target_due_to_insufficient_unique_profile_subsets": 68,
+  "feature_columns": 1495,
+  "per_label": [
+    {
+      "Disease": "Abdominal Hernia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Abdominal Injury",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "abscess",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "Abscess of Nose",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Abscess of the Lung",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Achalasia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "acid reflux",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 38,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acinic cell carcinoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acne vulgaris",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 89,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acoustic Neuroma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acromegaly",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 49,
+      "target_reached": true
+    },
+    {
+      "Disease": "Actinic Keratosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute bronchitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 59,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute Bronchospasm",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute cystitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 101,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute gastroenteritis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 62,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute Kidney Injury",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 66,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute Otitis Media",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute Pancreatitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "acute renal failure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute Sinusitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Acute viral pharyngitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 59,
+      "target_reached": true
+    },
+    {
+      "Disease": "Addison's Disease",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 57,
+      "target_reached": true
+    },
+    {
+      "Disease": "Adenoid cystic carcinoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Adrenal Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Adrenal Tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "alcohol intoxication",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 27,
+      "target_reached": true
+    },
+    {
+      "Disease": "Alcohol Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "alcoholism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 26,
+      "target_reached": true
+    },
+    {
+      "Disease": "Alopecia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Alpha-1 Antitrypsin Deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "alzheimer's disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 27,
+      "target_reached": true
+    },
+    {
+      "Disease": "Amyloidosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anal Fissure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "anaphylaxis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 36,
+      "target_reached": true
+    },
+    {
+      "Disease": "anemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anemia due to Chronic Kidney Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anemia due to Malignancy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anemia of Chronic Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "aneurysm",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 16,
+      "target_reached": true
+    },
+    {
+      "Disease": "angina",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 28,
+      "target_reached": true
+    },
+    {
+      "Disease": "Angle-Closure Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ankylosing Spondylitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 62,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anorexia Nervosa",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Antihypertensives Poisoning",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Antimicrobial Drugs Poisoning",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anxiety",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Anxiety Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "aphasia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Aplastic Anemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "appendicitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 24,
+      "target_reached": true
+    },
+    {
+      "Disease": "arrhythmia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 16,
+      "target_reached": true
+    },
+    {
+      "Disease": "arthritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 32,
+      "target_reached": true
+    },
+    {
+      "Disease": "asthma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "Asthma exacerbation (possible)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 101,
+      "target_reached": true
+    },
+    {
+      "Disease": "Astigmatism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Atelectasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "atopic dermatitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 15,
+      "target_reached": true
+    },
+    {
+      "Disease": "Atopic eczema flare",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 89,
+      "target_reached": true
+    },
+    {
+      "Disease": "atrial fibrillation",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 21,
+      "target_reached": true
+    },
+    {
+      "Disease": "Atrophic vaginitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Attention Deficit Hyperactivity Disorder (ADHD)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Autism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Avoidant/Restrictive Food Intake Disorder (ARFID)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Bacterial Vaginosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Balanitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Basal Cell Carcinoma",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 98,
+      "target_reached": true
+    },
+    {
+      "Disease": "bed bug bite",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 16,
+      "target_reached": true
+    },
+    {
+      "Disease": "Behcet's Disease",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 51,
+      "target_reached": true
+    },
+    {
+      "Disease": "Bell Palsy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Bell's Palsy",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 84,
+      "target_reached": true
+    },
+    {
+      "Disease": "Benign Kidney Cyst",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Benign Prostatic Hyperplasia",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 71,
+      "target_reached": true
+    },
+    {
+      "Disease": "Benzodiazepine Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 11,
+      "target_reached": true
+    },
+    {
+      "Disease": "Binge Eating Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "bipolar disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 38,
+      "target_reached": true
+    },
+    {
+      "Disease": "bladder cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 16,
+      "target_reached": true
+    },
+    {
+      "Disease": "Bladder Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Bone Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "bone fracture",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 24,
+      "target_reached": true
+    },
+    {
+      "Disease": "bone infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 25,
+      "target_reached": true
+    },
+    {
+      "Disease": "Bone Spur of the Calcaneus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "borderline personality disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "Brain Tumor",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 74,
+      "target_reached": true
+    },
+    {
+      "Disease": "breast cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "bronchitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 28,
+      "target_reached": true
+    },
+    {
+      "Disease": "Bulimia Nervosa",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Bullous Pemphigoid",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 85,
+      "target_reached": true
+    },
+    {
+      "Disease": "burn",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 19,
+      "target_reached": true
+    },
+    {
+      "Disease": "Bursitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Candidiasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cannabis Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "Carbon Monoxide Poisoning",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Carcinoid Tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "cardiac arrest",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "cardiomyopathy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 21,
+      "target_reached": true
+    },
+    {
+      "Disease": "carpal tunnel syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 26,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cat Scratch Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "cataracts",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 14,
+      "target_reached": true
+    },
+    {
+      "Disease": "celiac disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cellulitis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 84,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cervical Cancer",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 72,
+      "target_reached": true
+    },
+    {
+      "Disease": "cervical radiculopathy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 18,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chagas Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chalazion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chancroid",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "chicken pox",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chickenpox",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "chlamydia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "cholangiocarcinoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "cholecystitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Choledocholithiasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cholera",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 66,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cholesteatoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chondrosarcoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chordoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Choriocarcinoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chorioretinitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Fatigue Syndrome",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 69,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Headache",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "chronic kidney disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 27,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Knee Pain",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Migraine",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "chronic obstructive pulmonary disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 26,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Otitis Media",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "chronic pain",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Rheumatic Fever",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Chronic Sinusitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cirrhosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "cirrhosis of the liver",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 35,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cluster Headache",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 62,
+      "target_reached": true
+    },
+    {
+      "Disease": "Coagulation (Bleeding) Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cold Sore",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "colon cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 28,
+      "target_reached": true
+    },
+    {
+      "Disease": "Colonic Polyp",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Colorectal Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Common cold",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 93,
+      "target_reached": true
+    },
+    {
+      "Disease": "Complex Regional Pain Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Complex Regional Pain Syndrome (CRPS)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "concussion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 43,
+      "target_reached": true
+    },
+    {
+      "Disease": "Conductive Hearing Loss",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Congenital Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Congenital rubella",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "congestive heart failure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 27,
+      "target_reached": true
+    },
+    {
+      "Disease": "Conjunctivitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Conjunctivitis due to Allergy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Conjunctivitis (likely viral/allergic)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 60,
+      "target_reached": true
+    },
+    {
+      "Disease": "Constipation",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 87,
+      "target_reached": true
+    },
+    {
+      "Disease": "Contact dermatitis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 82,
+      "target_reached": true
+    },
+    {
+      "Disease": "Conversion Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cornea Infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Corneal Abrasion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Corneal Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "coronary artery disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 16,
+      "target_reached": true
+    },
+    {
+      "Disease": "Coronary Atherosclerosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "COVID-19",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 56,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cranial Nerve Palsy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Craniopharyngioma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "crohn's disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 33,
+      "target_reached": true
+    },
+    {
+      "Disease": "Crushing Injury",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cryptococcosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cryptorchidism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cushing's Syndrome",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 53,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cyst of the Eyelid",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cystic Fibrosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Cytomegalovirus Infection",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 61,
+      "target_reached": true
+    },
+    {
+      "Disease": "deep vein thrombosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 16,
+      "target_reached": true
+    },
+    {
+      "Disease": "dementia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 33,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dengue Fever",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dental Caries",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Depression",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dermatitis due to Sun Exposure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dermatomyositis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 59,
+      "target_reached": true
+    },
+    {
+      "Disease": "Diabetic Ketoacidosis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 55,
+      "target_reached": true
+    },
+    {
+      "Disease": "Diabetic Kidney Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Diabetic retinopathy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Diphtheria",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 57,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dislocation of the Ankle",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dislocation of the Elbow",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dislocation of the Patella",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "diverticulitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 26,
+      "target_reached": true
+    },
+    {
+      "Disease": "diverticulosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Drug Abuse (Barbiturates)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Drug Abuse (Cocaine)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Drug Abuse (Methamphetamine)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Drug Reaction",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "drug withdrawal",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 58,
+      "target_reached": true
+    },
+    {
+      "Disease": "Dry Skin",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Dysthymic Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ebola",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ectopic Pregnancy",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 83,
+      "target_reached": true
+    },
+    {
+      "Disease": "Eczema",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Edward Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Emphysema",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Empyema",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "encephalitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 30,
+      "target_reached": true
+    },
+    {
+      "Disease": "encephalopathy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "endometrial cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 19,
+      "target_reached": true
+    },
+    {
+      "Disease": "Endometriosis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 67,
+      "target_reached": true
+    },
+    {
+      "Disease": "Endophthalmitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ependymoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Epididymitis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 73,
+      "target_reached": true
+    },
+    {
+      "Disease": "epilepsy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 25,
+      "target_reached": true
+    },
+    {
+      "Disease": "Erectile Dysfunction",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Erythema Multiforme",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 76,
+      "target_reached": true
+    },
+    {
+      "Disease": "esophageal cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 31,
+      "target_reached": true
+    },
+    {
+      "Disease": "Esophageal Varices",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ethylene glycol poisoning-1",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ethylene glycol poisoning-2",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ethylene glycol poisoning-3",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ewing Sarcoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Exfoliation Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Extrapyramidal Effect of Drugs",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Eye alignment disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fallopian Tube Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fat Embolism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Female Infertility of Unknown Cause",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fetal Alcohol Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "fibroids",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fibromyalgia",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 100,
+      "target_reached": true
+    },
+    {
+      "Disease": "Flat Feet",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Food Allergy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Foreign Body in the Gastrointestinal Tract",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Foreign Body in the Throat",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Fracture",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fracture of the Arm",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fracture of the Neck",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fracture of the Patella",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fracture of the Rib",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fracture of the Shoulder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Fungal Infection of the Skin",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "gallstones",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "gastritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gastroenteritis (Stomach Flu)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gastroesophageal Reflux Disease (GERD)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gastroesophageal reflux (GERD)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 56,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gastrointestinal Hemorrhage",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "gastroparesis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 27,
+      "target_reached": true
+    },
+    {
+      "Disease": "Genital Herpes",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "GERD",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gestational Cholestasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Gestational Diabetes",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Gestational Hypertension",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Gestational Trophoblastic Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Glioblastoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Glucocorticoid Deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "goiter",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 19,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gonorrhea",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gout",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 93,
+      "target_reached": true
+    },
+    {
+      "Disease": "Granulomatosis with Polyangiitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 72,
+      "target_reached": true
+    },
+    {
+      "Disease": "Graves' Disease",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 61,
+      "target_reached": true
+    },
+    {
+      "Disease": "groin hernia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "Gum Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hallucinogen Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hashimoto's Thyroiditis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 48,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hashimoto Thyroiditis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Head and Neck Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Headache after lumbar puncture",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "heart attack",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 36,
+      "target_reached": true
+    },
+    {
+      "Disease": "Heart Block",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Heart Failure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hemarthrosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hemochromatosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hemolytic Anemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hemophilia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hemorrhoids",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hepatic Encephalopathy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hepatitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "hepatitis a",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "hepatitis b",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "hepatitis c",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hepatitis due to a Toxin",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hepatocellular Carcinoma",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 62,
+      "target_reached": true
+    },
+    {
+      "Disease": "Herpangina",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Herpes Simplex",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "hiatal hernia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "high blood pressure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "high cholesterol",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hirschsprung Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hirsutism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "hiv/aids",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 32,
+      "target_reached": true
+    },
+    {
+      "Disease": "hives",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hodgkin Lymphoma",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 50,
+      "target_reached": true
+    },
+    {
+      "Disease": "HPV Infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Huntington Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hydrocele of the Testicle",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Hydrocephalus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hydronephrosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypercalcemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypercholesterolemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hyperemesis Gravidarum",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Hypergammaglobulinemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Hyperhidrosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hyperkalemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hyperopia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Hyperosmotic Hyperketotic State",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hyperparathyroidism",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 49,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hyperprolactinemia",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 52,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypertension",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypertension-related symptoms (nonspecific)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 81,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypertensive Heart Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "hyperthyroidism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypocalcemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "hypoglycemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 34,
+      "target_reached": true
+    },
+    {
+      "Disease": "hyponatremia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypoparathyroidism",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 58,
+      "target_reached": true
+    },
+    {
+      "Disease": "Hypospadias",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "hypothyroidism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 38,
+      "target_reached": true
+    },
+    {
+      "Disease": "Idiopathic Absence of Menstruation",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Idiopathic Nonmenstrual Bleeding",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Idiopathic Thrombocytopenic Purpura",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Impetigo",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 72,
+      "target_reached": true
+    },
+    {
+      "Disease": "Impulse Control Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Indigestion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Induced Abortion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Infection of Open Wound",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Infertility",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Influenza",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Influenza (Flu)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Injury to Internal Organ",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Injury to the Finger",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Injury to the Leg",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Insect Bites",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "insect bites and stings",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 15,
+      "target_reached": true
+    },
+    {
+      "Disease": "Insomnia (symptom pattern)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 86,
+      "target_reached": true
+    },
+    {
+      "Disease": "Insulin Overdose",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Intertrigo",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Intestinal Malabsorption",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Intracranial Abscess",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Intracranial Hemorrhage",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "iron deficiency anemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Irritable bowel pattern",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 74,
+      "target_reached": true
+    },
+    {
+      "Disease": "irritable bowel syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ischemia of the Bowel",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Juvenile Rheumatoid Arthritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Kaposi's Sarcoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Kidney Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Kidney Failure",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "kidney infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 31,
+      "target_reached": true
+    },
+    {
+      "Disease": "kidney stone",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 31,
+      "target_reached": true
+    },
+    {
+      "Disease": "Kidney Stones",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Labyrinthitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Lateral Epicondylitis (Tennis Elbow)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Lead Poisoning",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Legionnaires' Disease",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 68,
+      "target_reached": true
+    },
+    {
+      "Disease": "Leishmaniasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Leukemia",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 54,
+      "target_reached": true
+    },
+    {
+      "Disease": "Lice",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "liver cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "low back pain",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 18,
+      "target_reached": true
+    },
+    {
+      "Disease": "Low-Tension Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Ludwig's angina",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Lung Cancer",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 88,
+      "target_reached": true
+    },
+    {
+      "Disease": "Lung Contusion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "lupus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "lyme disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Lymphedema",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Lymphoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Macular Degeneration",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Magnesium Deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "major depression",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 32,
+      "target_reached": true
+    },
+    {
+      "Disease": "Malaria",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Marijuana Abuse",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mastoiditis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 10,
+      "target_reached": true
+    },
+    {
+      "Disease": "Measles",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 73,
+      "target_reached": true
+    },
+    {
+      "Disease": "Medulloblastoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Melanoma",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 78,
+      "target_reached": true
+    },
+    {
+      "Disease": "Meniere Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Meningioma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "meningitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 30,
+      "target_reached": true
+    },
+    {
+      "Disease": "Menopause",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mesothelioma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Microscopic Polyangiitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 58,
+      "target_reached": true
+    },
+    {
+      "Disease": "middle ear infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Migraine",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 85,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mild anxiety symptoms",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 59,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mild dehydration",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 58,
+      "target_reached": true
+    },
+    {
+      "Disease": "miscarriage",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mitral Valve Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mittelschmerz",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Mixed Connective Tissue Disease",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 70,
+      "target_reached": true
+    },
+    {
+      "Disease": "mono",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 32,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mononucleosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mononucleosis (EBV)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 61,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mucocele",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Mucoepidermoid carcinoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Multiple Myeloma",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 66,
+      "target_reached": true
+    },
+    {
+      "Disease": "multiple sclerosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 52,
+      "target_reached": true
+    },
+    {
+      "Disease": "Mumps",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 58,
+      "target_reached": true
+    },
+    {
+      "Disease": "Muscle Spasm",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Muscular Dystrophy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Musculoskeletal back strain",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 100,
+      "target_reached": true
+    },
+    {
+      "Disease": "myasthenia gravis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 18,
+      "target_reached": true
+    },
+    {
+      "Disease": "Myelodysplastic Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Myoclonus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Myofascial Pain Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Myopia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Myositis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Narcolepsy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Neonatal Jaundice",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Neuralgia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Neuroblastoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Neuromyelitis Optica",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Neuropathic Pain",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "neutropenia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Non-Hodgkin Lymphoma",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 56,
+      "target_reached": true
+    },
+    {
+      "Disease": "Nonalcoholic Liver Disease (NASH)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Normal Pressure Hydrocephalus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Normal-Tension Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Nose Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "obesity",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 21,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ocular Hypertension",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Omphalitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Open-Angle Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Open Wound from Surgical Incision",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Opioid Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "Optic Neuritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Oral Leukoplakia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Orbital Cellulitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Orthorexia Nervosa",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "osteoarthritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 19,
+      "target_reached": true
+    },
+    {
+      "Disease": "Osteoarthritis (symptomatic)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 85,
+      "target_reached": true
+    },
+    {
+      "Disease": "Osteochondrosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "osteoporosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 15,
+      "target_reached": true
+    },
+    {
+      "Disease": "Osteosarcoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Other Specified Feeding or Eating Disorder (OSFED)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Otitis Media",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Otitis media (possible)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 64,
+      "target_reached": true
+    },
+    {
+      "Disease": "Otosclerosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ovarian Cancer",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 59,
+      "target_reached": true
+    },
+    {
+      "Disease": "ovarian cyst",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 25,
+      "target_reached": true
+    },
+    {
+      "Disease": "Ovarian Torsion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 11,
+      "target_reached": true
+    },
+    {
+      "Disease": "Overflow Incontinence",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pain after an Operation",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pancreatic Cancer",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 60,
+      "target_reached": true
+    },
+    {
+      "Disease": "pancreatitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 23,
+      "target_reached": true
+    },
+    {
+      "Disease": "Panic Attack",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Panic disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Parasitic Infections",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Parathyroid Adenoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Parkinson Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "parkinson's disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 39,
+      "target_reached": true
+    },
+    {
+      "Disease": "Parotid stones",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pelvic Inflammatory Disease",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 57,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pelvic Organ Prolapse",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pemphigus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Pemphigus Vulgaris",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 81,
+      "target_reached": true
+    },
+    {
+      "Disease": "Penile Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Peptic Ulcer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pericarditis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Peritonitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Peritonsillar Abscess",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pertussis (Whooping Cough)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 66,
+      "target_reached": true
+    },
+    {
+      "Disease": "Peyronie Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Pharyngitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pheochromocytoma",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 68,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pica",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Pigmentary Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pilonidal Cyst",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pineal Tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pinguecula",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "pink eye",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 25,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pinworm Infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pituitary Adenoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 11,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pituitary Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Pituitary Tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Placenta Previa",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "plantar fasciitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 18,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pleomorphic adenoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "pleural effusion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 14,
+      "target_reached": true
+    },
+    {
+      "Disease": "pneumonia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 30,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pneumonia (possible \u2014 seek care)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 53,
+      "target_reached": true
+    },
+    {
+      "Disease": "pneumothorax",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Poisoning due to Analgesics",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Poisoning due to Antidepressants",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "Polycystic Kidney Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Polycystic Ovarian Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Polycystic Ovary Syndrome",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 75,
+      "target_reached": true
+    },
+    {
+      "Disease": "Polycythemia Vera",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Polymyalgia Rheumatica",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 67,
+      "target_reached": true
+    },
+    {
+      "Disease": "Polymyositis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 56,
+      "target_reached": true
+    },
+    {
+      "Disease": "Possible cardiac chest pain \u2014 seek emergency care",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 55,
+      "target_reached": true
+    },
+    {
+      "Disease": "Possible meningitis features \u2014 seek emergency care",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 67,
+      "target_reached": true
+    },
+    {
+      "Disease": "post traumatic stress disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 34,
+      "target_reached": true
+    },
+    {
+      "Disease": "Postpartum Depression",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Preeclampsia",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 55,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pregnancy-Induced Hypertension",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Pregnancy-Related Back Pain",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Premature Ventricular Contractions (PVCs)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Premenstrual Tension Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Presbycusis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Priapism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Primary Insomnia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Primary Peritoneal Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Prostate Cancer",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 77,
+      "target_reached": true
+    },
+    {
+      "Disease": "Prostatitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Protein Deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pseudogout",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 65,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pseudohypoparathyroidism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Psoriasis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 101,
+      "target_reached": true
+    },
+    {
+      "Disease": "Psoriatic Arthritis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 59,
+      "target_reached": true
+    },
+    {
+      "Disease": "psychosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 33,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pterygium",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Pulmonary Congestion",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "pulmonary embolism",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 18,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pulmonary Eosinophilia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pulmonary Fibrosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "pulmonary hypertension",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 20,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pulmonic Valve Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pyelonephritis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 61,
+      "target_reached": true
+    },
+    {
+      "Disease": "Pyloric stenosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Rabies",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 64,
+      "target_reached": true
+    },
+    {
+      "Disease": "Reactive Arthritis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 49,
+      "target_reached": true
+    },
+    {
+      "Disease": "Recurrent salivary stones",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Restless Leg Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Restless Legs Syndrome",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 82,
+      "target_reached": true
+    },
+    {
+      "Disease": "retinal detachment",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 26,
+      "target_reached": true
+    },
+    {
+      "Disease": "Retinoblastoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "rhabdomyolysis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 21,
+      "target_reached": true
+    },
+    {
+      "Disease": "Rhabdomyosarcoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "rheumatoid arthritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 24,
+      "target_reached": true
+    },
+    {
+      "Disease": "Rocky Mountain Spotted Fever",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Rosacea",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 57,
+      "target_reached": true
+    },
+    {
+      "Disease": "Rotator Cuff Injury",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Round Ligament Pain",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Rubella",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 77,
+      "target_reached": true
+    },
+    {
+      "Disease": "Rumination Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Sarcoidosis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 65,
+      "target_reached": true
+    },
+    {
+      "Disease": "Scabies",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Scarlet Fever",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "schizophrenia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 30,
+      "target_reached": true
+    },
+    {
+      "Disease": "sciatica",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 28,
+      "target_reached": true
+    },
+    {
+      "Disease": "Scleritis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Scleroderma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Scleroderma (Systemic Sclerosis)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 56,
+      "target_reached": true
+    },
+    {
+      "Disease": "Scurvy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Seasonal allergic rhinitis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 64,
+      "target_reached": true
+    },
+    {
+      "Disease": "seasonal allergies",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "sebaceous cyst",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Seborrheic Dermatitis",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 87,
+      "target_reached": true
+    },
+    {
+      "Disease": "Secondary Glaucoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "Sedative, Hypnotic, or Anxiolytic Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 11,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sedatives Poisoning",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "sepsis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 28,
+      "target_reached": true
+    },
+    {
+      "Disease": "shingles",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 29,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sialolithiasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "sickle cell anemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 27,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sickle Cell Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "sinusitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 35,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sinusitis (acute)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 63,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sj\u00f6gren's syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sjogren's Syndrome",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 67,
+      "target_reached": true
+    },
+    {
+      "Disease": "Sleep Apnea",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 91,
+      "target_reached": true
+    },
+    {
+      "Disease": "Soft Tissue Sarcoma",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Spinal Cord Tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Spondylitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 11,
+      "target_reached": true
+    },
+    {
+      "Disease": "spondylosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 22,
+      "target_reached": true
+    },
+    {
+      "Disease": "sprained ankle",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 15,
+      "target_reached": true
+    },
+    {
+      "Disease": "sprained knee",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "sprained wrist",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 17,
+      "target_reached": true
+    },
+    {
+      "Disease": "Squamous Cell Carcinoma",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 75,
+      "target_reached": true
+    },
+    {
+      "Disease": "Stenosis of the Tear Duct",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Stevens-Johnson Syndrome",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 88,
+      "target_reached": true
+    },
+    {
+      "Disease": "Stimulant Use Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "Stomach Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "stomach flu",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 38,
+      "target_reached": true
+    },
+    {
+      "Disease": "stomach ulcer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 21,
+      "target_reached": true
+    },
+    {
+      "Disease": "strep throat",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 31,
+      "target_reached": true
+    },
+    {
+      "Disease": "Stress Incontinence",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "stroke",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 35,
+      "target_reached": true
+    },
+    {
+      "Disease": "Subdural hemorrhage",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Submandibular stones",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Syndrome of Inappropriate Secretion of ADH (SIADH)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Syphilis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 9,
+      "target_reached": true
+    },
+    {
+      "Disease": "Syringomyelia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Temporomandibular Joint Disorder",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tension Headache",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 107,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tension / mechanical neck pain",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 103,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tension-type headache",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 90,
+      "target_reached": true
+    },
+    {
+      "Disease": "Testicular Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Testicular Torsion",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 68,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tetanus",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 63,
+      "target_reached": true
+    },
+    {
+      "Disease": "Thalassemia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Thoracic Aortic Aneurysm",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "thoracic radiculopathy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 19,
+      "target_reached": true
+    },
+    {
+      "Disease": "Threatened Pregnancy",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Thrombocytopenia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Thrombophlebitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Thyroid Cancer",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 63,
+      "target_reached": true
+    },
+    {
+      "Disease": "Thyroid Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "thyroid nodules",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 12,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tietze Syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Torticollis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Toxoplasmosis",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 54,
+      "target_reached": true
+    },
+    {
+      "Disease": "Transient ischemic attack",
+      "original_unique_records": 1,
+      "synthetic_records_added": 0,
+      "final_unique_records": 1,
+      "profile_symptom_count": 1,
+      "target_reached": false
+    },
+    {
+      "Disease": "traumatic brain injury",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 39,
+      "target_reached": true
+    },
+    {
+      "Disease": "Trichomoniasis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tuberculosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Tuberous Sclerosis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Turner syndrome",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "type 1 diabetes",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 24,
+      "target_reached": true
+    },
+    {
+      "Disease": "type 2 diabetes",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 19,
+      "target_reached": true
+    },
+    {
+      "Disease": "Type 2 diabetes symptoms (possible)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 69,
+      "target_reached": true
+    },
+    {
+      "Disease": "Typhoid Fever",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 68,
+      "target_reached": true
+    },
+    {
+      "Disease": "ulcerative colitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 26,
+      "target_reached": true
+    },
+    {
+      "Disease": "upper respiratory infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 25,
+      "target_reached": true
+    },
+    {
+      "Disease": "Urethral Valves",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Urge Incontinence",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Urinary Stones (Kidney Stones)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Urinary tract infection",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 88,
+      "target_reached": true
+    },
+    {
+      "Disease": "Urinary Tract Infection (Adult)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 60,
+      "target_reached": true
+    },
+    {
+      "Disease": "Urinary Tract Infection (UTI)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Urticaria (Hives)",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Uterine Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Uterine Fibroids",
+      "original_unique_records": 101,
+      "synthetic_records_added": 0,
+      "final_unique_records": 101,
+      "profile_symptom_count": 64,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vaginal Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vaginal Cyst",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "Vaginal Yeast Infection",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Varicella (Chickenpox)",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 72,
+      "target_reached": true
+    },
+    {
+      "Disease": "Varicose Veins",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vasculitis",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vesicoureteral Reflux",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Viral Warts",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vitamin A Deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vitamin B12 Deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 7,
+      "target_reached": true
+    },
+    {
+      "Disease": "vitamin d deficiency",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 15,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vitiligo",
+      "original_unique_records": 100,
+      "synthetic_records_added": 0,
+      "final_unique_records": 100,
+      "profile_symptom_count": 119,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vitreous Hemorrhage",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vocal cord polyp",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 3,
+      "target_reached": true
+    },
+    {
+      "Disease": "Volvulus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Von Hippel-Lindau Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 8,
+      "target_reached": true
+    },
+    {
+      "Disease": "Von Willebrand Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vulvar Cancer",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Vulvodynia",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Warthin tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 2,
+      "final_unique_records": 3,
+      "profile_symptom_count": 2,
+      "target_reached": false
+    },
+    {
+      "Disease": "West Nile Virus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Wharton's duct stones",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Whooping Cough",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Wilms Tumor",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    },
+    {
+      "Disease": "Wilson Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 5,
+      "target_reached": true
+    },
+    {
+      "Disease": "Wilson's Disease",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 4,
+      "target_reached": true
+    },
+    {
+      "Disease": "Zika Virus",
+      "original_unique_records": 1,
+      "synthetic_records_added": 4,
+      "final_unique_records": 5,
+      "profile_symptom_count": 6,
+      "target_reached": true
+    }
+  ]
+}
